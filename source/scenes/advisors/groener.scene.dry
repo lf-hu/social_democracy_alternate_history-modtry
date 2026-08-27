@@ -1,0 +1,8 @@
+title: Wilhelm Groener
+is-pinned-card: true
+tags: advisor, leftist
+card-image: img/portraits/WilhelmGroener.jpg
+view-if: scheidemann_advisor = 1
+new-page: true
+
+= Wilhelm Groener
