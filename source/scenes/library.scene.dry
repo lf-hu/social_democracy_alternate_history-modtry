@@ -38,7 +38,7 @@ go-to: menu
 
 = The Life of General Seeckt before the Game's Start
 
-**1875**: The SPD is formed as a merger of the General German Workers' Association, founded by Ferdinand Lassalle, and the Social Democratic Workers' Party of Germany, led by Wilhelm Liebknecht and August Bebel. Eventually, the SPD grows to become the largest party in the German Empire.
+**1866**: On the 22. of April, Hans von Seeckt is born third Child to    is formed as a merger of the General German Workers' Association, founded by Ferdinand Lassalle, and the Social Democratic Workers' Party of Germany, led by Wilhelm Liebknecht and August Bebel. Eventually, the SPD grows to become the largest party in the German Empire.
 
 **1914**: The Great War begins. The SPD votes in favor of war credits, with substantial internal dissent. This begins a policy of *Burgfriedenspolitik*, a general peace between all political parties and trade unions.
 
@@ -73,22 +73,22 @@ Chancellor: [+ chancellor +] ([+ chancellor_party +])
 
 Reichstag composition:
 
-# 1928: 30, 1930: 25, 1932: 22
+# 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 30, 1930: 25, 1932: 22
 SPD: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
-# 1928: 15, 1930: 15, 1932: 
+# 1919: 20, 1920: 18, 1924 (1): 17, 1924 (2): 17, 1928: 15, 1930: 15, 1932: 
 Z + BVP: [+ z_r +]%
-# 1928: 10, 1930: 13
+# 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 10, 1930: 13... ts is irrelevant, there's a # in front of it...
 KPD: [+ kpd_r +]%
-# 1928: 5, 1930: 4 (as DstP)
+# 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 5, 1930: 4 (as DstP)
 [+ ddp_name +]: [+ ddp_r +]%
-# 1928: 9, 1930: 5
+# 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 9, 1930: 5
 DVP: [+ dvp_r +]%
-# 1928: 14, 1930: 7
+# 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 14, 1930: 7
 DNVP: [+ dnvp_r +]%
-# 1928: 3, 1930: 18
+# 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 3, 1930: 18
 NSDAP: [+ nsdap_r +]%
-# 1928: 9, 1930: 10
+# 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 9, 1930: 10
 Others: [+ other_r +]%
 
 SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
@@ -234,19 +234,19 @@ go-to: menu
 
 **Paramilitary groups:**
 
-**Reichsbanner Schwarz-Rot-Gold**: The Reichsbanner is an organization affiliated with all of the democratic parties - the SPD, Z, and DDP, but primarily with the SPD. Historically, this has been an unarmed organization.
+**Reichsbanner Schwarz-Rot-Gold**: The Reichsbanner is an organization affiliated with all of the democratic parties - the SPD, Z, and DDP, but primarily with the SPD. It was formed in February 1924, and although technically a paramilitary, it is an unarmed and rather ceremonial organization.
 
 Strength: [+ rb_strength +] thousand
 
 Militarization: [+ rb_militancy : militancy +]
 
-**Rotfrontkämpferbund (RFB)**: The "Red Front Fighter's League" is associated with the KPD.
+**Div. Communist Paramiltaries such as: Roter Soldatenbund (RSB), Rote Ruhrarmeel, Proletarische Hundertschaften, Rotfrontkämpferbund (RFB)**: These Comunist Groups are associated with the KPD-SB and were born out of the German Revolution, opposing both the Kaiserreich and the newly formed Bourgeois Republic.
 
 Strength: [+ rfb_strength +] thousand
 
 Militarization: [+ rfb_militancy : militancy +]
 
-**Der Stahlhelm**: A right-wing nationalist organization of primarily Great War veterans, founded on the 25. December 1918, descended from the *Freikorps* that emerged after the war. Associated with the DNVP.
+**Der Stahlhelm**: A right-wing nationalist organization of primarily Great War veterans, founded on the 25. December 1918, descended from the *Freikorps* that emerged after the war. Lead by a "Führer" it is associated with the DNVP.
 
 Strength: [+ sh_strength +] thousand
 
