@@ -101,7 +101,7 @@ Economic growth: [+ economic_growth_2 +]%
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
 
-@paramilitaries
+@military
 on-arrival: {!
 if (Q.rb_strength) {
     Q.rb_strength_2 = Q.rb_strength.toFixed(1);
