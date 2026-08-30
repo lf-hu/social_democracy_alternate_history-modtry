@@ -44,19 +44,13 @@ go-to: menu
 
 **1896**: He continues to rise through the ranks after completing his general staff training, graduating amongst the top of his class.
 
-**1915**: At the start of the War, Seeckt is lieutenant-colonel and general staff of the III. army-corps on the western front, before being relocated to the newly set up 11. Army on the east front, where he served under August von Mackensen. 
+**1915**: At the start of the War, Seeckt is lieutenant-colonel and general staff of the III. army-corps on the western front, before being relocated to the newly set up 11. Army on the east front, where he served under August von Mackensen. Together with Mackensen he wins several crucial battles, such as the Battle of Gorlice/Tarnów, for which he was awarded the Por-le-Mérite Order. In June of the same year. Seeckt was promoted to Generalmajor and in the following months, after the success of the serbian campaign, he was awarded oak leaves (eichenlaub) to his order pour-le-mérite.
 
-**1919**: 
+**1916**: During the russian offensive of 1916, Seeckt briefly served as Chief of Staff of the 7. army.
 
-**1920**: 
+**1917**: In December of 1917, Seeckt was sent to replace von Schellendorf as german counselor to and de-facto Chief of Staff of the Ottoman Empire. However, cooperation would prove dificult, as Enver Pascha, while willing to take counsel, would always disregard their opinion if it varied from his own. From his position he refused to condemn the genocide of armenians, arguing such measures were necesary to save Turkey from "internal decay".
 
-**1923**: 
-
-**1924**: 
-
-**1925**:  
-
-**1926**:
+**1918**: In the wake of inevitable defeat, Seeckt helped organizing the escape of the "Three Pashas", also known as the Young Turk triumvirate, before himself returning to Germany in November of 1918...
 
 @curr_gov
 go-to: cabinet if spd_in_government; menu if not spd_in_government
