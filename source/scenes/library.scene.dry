@@ -210,7 +210,7 @@ go-to: menu
 
 **USPD** - *Unabhängige Sozialdemokratische Partei Deutschlands* (Independent Social Democratic Party of Germany) - a socialist, democratic and pacifist party of the working class, that split from the SPD, following their support for war-credits. It was formally established in 1917 and was part of the Council of People's Deputies, together with the SPD, before the National Assembly was elected. The majority of the party merged into the KPD in 1920, with most remaining members rejoining the SPD in 1922.
 
-**DVFP** - *Deutschvölkische Freiheitspartei* (German-Völkisch Freedomparty) - a far-right nationalist and antisemitic party, somewhat of a predecessor to the NSDAP. It is mostly grounded around Ludendorff's personal cult and split from the DNVP in 1922, following the murder of Walther Rathenau (DDP) and the subsequent expulsion of Wilhelm Hennig from he party, following an antisemitic speech of him, in which he said that the German People would hold Rathenau accountable for what he did.
+**DVFP** - *Deutschvölkische Freiheitspartei* (German-Völkisch Freedomparty) - a far-right, esoteric, nationalist and antisemitic party, somewhat of a predecessor to the NSDAP. It is mostly grounded around Ludendorff's personal cult and split from the DNVP in 1922, following the murder of Walther Rathenau (DDP) and the subsequent expulsion of Wilhelm Hennig from he party, following an antisemitic speech of him, in which he said that the German People would hold Rathenau accountable for what he did.
 
 **NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - (National Socialist German Worker's Party, or Nazis) - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but have since been legalized.
 
@@ -271,37 +271,42 @@ go-to: neorevisionists if neorevisionism > 0; menu if neorevisionism <= 0
 
 Overall dissent: [+ dissent_percent : dissent +]
 
+// ludendorffist-left, conservatives-center, reformers-reformists, pragmatist-labor
 **Ludendorffists**
 
-The Ludendorffists, centered around General Ludendorff are strongly opposed to the reforms anticipated by the reformers around Seeckt and Groener, while supporting their own reform agenda, aiming to transform the army into a "Volksarmee" incooperating all Germans eligible for service. They are strongly national revanchist, believing in a racial war to "clean" the european continent and assert German dominance over it's neighbours.
+The Ludendorffists, centered around General Ludendorff and his ideas are strongly opposed to the reforms anticipated by the reformers around Seeckt and Groener, while supporting their own reform agenda, aiming to transform the army into a "Volksarmee" incooperating all germans eligible for service. They are strongly national revanchist, believing in a racial war to "clean" the european continent and assert German dominance over it's neighbours.
 
 Strength: [+ left_strength : strength +]
 
 Dissent: [+ left_dissent : dissent +]
 
-**Centrists**
+**Conservatives**
 
-Centrists in the SPD are followers of the doctrine of orthodox Marxism as expounded by Karl Kautsky and later Rudolf Hilferding. They seek a middle course between reform and revolution, while defending the democratic state.
+The conservative clique in the Reichswehr is strongly oriented around pre-great war doctrine and sceptical of all reform, while tolerating Seeckt. They are personally opposed to the Republic and would like to see an authocratic ruler in it's place (preferably the Kaiser). They uphold prussian traditions and believe the army should follow Moltke's and Clausewitz footsteps.
 
 Strength: [+ center_strength : strength +]
 
 Dissent: [+ center_dissent : dissent +]
 
-**Labor**
+**Pragmatists**
 
-Many SPD members are also part of the ADGB, the federation of free trade unions. Their goal is economic reform and benefits for organized workers.
+The pragmatists are the biggest faction in the reichswehr, but also the most diverse and broadly described one, ranging from repunlicans by conviction to bavarian regionalists. It is mostly apolitical and generally supportive of army reforms, although certain groups withhin this faction may swing either way, depending on the question.
 
 Strength: [+ labor_strength : strength +]
 
 Dissent: [+ labor_dissent : dissent +]
 
-**Reformists**
+**Reformers**
 
-Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy against the far right and left. [? if spd_prussia : They are dominant in the state government of Prussia. ?]
+Reformers, centered around Seeckt and Groener, are in most cases disapproving, but pragmatic regarding their stance on the Republic and are standing fully behind Seeckt and his ambitions to reform the Reichswehr into a politically independent, professional army. They operate in the spirit of Mackensen's Blitzkrieg and Moltke's Auftragstaktik, while adhering to the requirements of politics.
 
 Strength: [+ reformist_strength : strength +]
 
 Dissent: [+ reformist_dissent : dissent +]
+
+**Republicans**
+
+Republican behaviour was strongly discouraged in the german army as long as the war was ongoing, with the revolution, republicans and socialist gained traction withhin the army, only to be eiher discharged or to resign after the Kapp-Putsch. Their most important member is Reinhardt, but mostly lower ranked soldiers are part of it.
 
 @neorevisionists
 go-to: menu
