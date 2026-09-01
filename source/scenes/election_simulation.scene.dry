@@ -6,6 +6,8 @@ set-jump: post_election
 - @1930: 1930 historical scenario
 - @1932: 1932 (July) historical scenario
 
+// all other elections soon
+
 @1928
 on-arrival: {!
 Q.workers = 46; // industry and trade
