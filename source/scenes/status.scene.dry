@@ -23,9 +23,9 @@ Resources available: [+ resources +]
 SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
 [? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_Ludendorffists_front and spd_in_government: Ludendorffists Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
 
-[? if spd_in_government and not in_spd_majority and not in_Ludendorffists_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
+[? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
 
-[? if spd_in_government and (in_Ludendorffists_front or in_popular_front): KPD coalition dissent: [+ kpd_coalition_dissent : coalition_dissent +] ?]
+[? if spd_in_government and (in_left_front or in_popular_front): KPD coalition dissent: [+ kpd_coalition_dissent : coalition_dissent +] ?]
 
 Internal dissent: [+ dissent_percent : dissent +]
 
@@ -96,7 +96,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="The Ludendorffists are a radical national-esoteric faction, wishing for a Volksarmee to avenge Versailles.">Ludendorffists</span>!} strength: [+ Ludendorffists_strength : strength +], dissent: [+ Ludendorffists_dissent : dissent +]
 
-{!<span class="tooltip-text" title="The Conservatives are the Prussian old guard, they lie strong emphasis on tradition and discipline.">Conservatives</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
+{!<span class="tooltip-text" title="The Conservatives are the Prussian old guard, they lie strong emphasis on tradition and discipline.">Conservatives</span>!} strength: [+ Conservatives_strength : strength +], dissent: [+ Conservatives_dissent : dissent +]
 
 {!<span class="tooltip-text" title="Pragmatics area broad fation, accompanying all more or less pragmatic voices in the army.">Pragmatists</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
 
