@@ -76,6 +76,8 @@ Economic growth: [+ economic_growth_2 +]%
 = Inter-party Relations
 
 
+{!<span class="tooltip-text" title=" Party">DFVP</span>!}: [+ dfvp_relation : relationships +]
+
 {!<span class="tooltip-text" title=" Party">Z</span>!}: [+ z_relation : relationships +]
 
 {!<span class="tooltip-text" title="German Democratic Party">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_relation : relationships +]
@@ -90,13 +92,13 @@ Economic growth: [+ economic_growth_2 +]%
 
 = Internal Factions of the SPD
 
-{!<span class="tooltip-text" title="The Ludendorffists is interested in radical, transformative policies and cooperation with the KPD.">Ludendorffists</span>!} strength: [+ Ludendorffists_strength : strength +], dissent: [+ Ludendorffists_dissent : dissent +]
+{!<span class="tooltip-text" title="The Ludendorffists are a radical national-esoteric faction, wishing for a Volksarmee to avenge Versailles.">Ludendorffists</span>!} strength: [+ Ludendorffists_strength : strength +], dissent: [+ Ludendorffists_dissent : dissent +]
 
-{!<span class="tooltip-text" title="The Conservatives is a faction of Conservatives Marxists, between reform and revolution.">Conservatives</span>!} strength: [+ Conservatives_strength : strength +], dissent: [+ Conservatives_dissent : dissent +]
+{!<span class="tooltip-text" title="The Conservatives are the Prussian old guard, they lie strong emphasis on tradition and discipline.">Conservatives</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Labor's goal is economic reform and benefits for organized workers.">Labor</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
+{!<span class="tooltip-text" title="Pragmatics area broad fation, accompanying all more or less pragmatic voices in the army.">Pragmatists</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy.">Reformist</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
+{!<span class="tooltip-text" title="Reformers seek to reform the Reichswehr into a small, professional army, independent of political squabbles.">Reformers</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
 
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
@@ -133,7 +135,9 @@ Stahlhelm Militarization: [+ sh_militancy : militancy +]
 
 {!<span class="tooltip-text" title="The SA (Sturmabteilung) is the Nazi paramilitary.">SA</span>!} Strength: [+ sa_strength_2 +] thousand
 
-SA Militarization: [+ sa_militancy : militancy +]
+SA Militarization: [+ sa_militancy : militancy 
+
+Freikorps Militarization: [+ freikorps_militancy : militancy +]
 
 = Official military/paramilitaries
 
