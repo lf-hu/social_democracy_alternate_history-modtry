@@ -448,7 +448,6 @@ if (d3 && window) {
             maxUnemployment + 5, minInflation - 5, 21);
     lines_3.width(width).height(300);
     d3.select("#economic_history").datum(Q.economic_records).call(lines_3);
-}
 !}
 
 = Reichstag composition
@@ -460,7 +459,7 @@ if (d3 && window) {
 
 [? if sapd_formed : {!<tr><td><div class="box" style='background-color:#C40000'> </div></td> <td> !}SAPD: {!</td><td>!} [+ sapd_r +]% {!</td></tr>!} ?]
 
-// [? if dvfp_formed : {!<tr><td><div class="box" style='background-color:#C4A484'> </div></td> <td> !}DVFP: {!</td><td>!} [+ dvfp_r +]% {!</td></tr>!} ?]
+[? if dvfp_formed : {!<tr><td><div class="box" style='background-color:#C4A484'> </div></td> <td> !}DVFP: {!</td><td>!} [+ dvfp_r +]% {!</td></tr>!} ?]
 
 {!<tr><td><div class="box" style='background-color:#8B0000'> </div></td> <td>!}KPD: {!</td><td>!} [+ kpd_r +]% {!</td></tr>!}
 
