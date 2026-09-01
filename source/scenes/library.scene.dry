@@ -180,7 +180,7 @@ NSDAP: [+ nsdap_votes +]%
 # 1928: 9, 1930: 10
 Others: [+ other_votes +]%
 
-[? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
+// [? if dvfp_formed: DVFP: [+ dvfp_votes +]% ?]
 
 **Detailed results for each demographic**
 
@@ -209,13 +209,13 @@ go-to: menu
 
 **DNVP** - *Deutschnationale Volkspartei* (German National People's Party) - a right-wing nationalist-conservative party, with authoritarian, monarchist, and racist elements, which is strongly supportive of rearmament. It is supported by the former aristocracy, rural landowners, and conservative Lutherans.
 
-**KPD-SB** - *Kommunistische Partei Deutschlands - Spartakusbund* (German Communist Party) - a radical left-wing offshoot of the USPD that emerged in the aftermath of the German Revolution of 1918, they follow the path of Moscow, opposing parliamentary democracy in favor of a Soviet-style revolution. they are strong proponnents of a council republic.
+**KPD-SB** - *Kommunistische Partei Deutschlands - Spartakusbund* (German Communist Party) - a radical left-wing offshoot of the USPD that emerged in the aftermath of the German Revolution of 1918, they follow the path of Moscow, opposing parliamentary democracy in favor of a Soviet-style revolution. They are strong proponnents of a council republic.
 
 **USPD** - *Unabhängige Sozialdemokratische Partei Deutschlands* (Independent Social Democratic Party of Germany) - a socialist, democratic and pacifist party of the working class, that split from the SPD, following their support for war-credits. It was formally established in 1917 and was part of the Council of People's Deputies, together with the SPD, before the National Assembly was elected. The majority of the party merged into the KPD in 1920, with most remaining members rejoining the SPD in 1922.
 
-**DVFP** - *Deutschvölkische Freiheitspartei* (German-Völkisch Freedomparty) - a far-right, esoteric, nationalist and antisemitic party, somewhat of a predecessor to the NSDAP. It is mostly grounded around Ludendorff's personal cult and split from the DNVP in 1922, following the murder of Walther Rathenau (DDP) and the subsequent expulsion of Wilhelm Hennig from he party, following an antisemitic speech of him, in which he said that the German People would hold Rathenau accountable for what he did.
+**DVFP** - *Deutschvölkische Freiheitspartei* (German-Völkisch Freedomparty) - a far-right, esoteric, nationalist and antisemitic party, somewhat of a predecessor to the NSDAP. It is mostly grounded around Ludendorff's personal cult and split from the DNVP in 1922, following the murder of Walther Rathenau (DDP) and the subsequent expulsion of Wilhelm Hennig from he party, following an antisemitic speech of him, in which he said that the german people would hold Rathenau accountable for what he did.
 
-**NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - (National Socialist German Worker's Party, or Nazis) - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but have since been legalized.
+**NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - (National Socialist German Worker's Party, or Nazis) - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but were re-legalized and rose to prominence in the great depression. After their rise to power they quickly cemented their power and soon began a campaign of unspeakable horror all over europe.
 
 **Other parties** - there is a multitude of small, mostly conservative parties, such as the Economic Party of the German Middle Class, the Farmer's Party, the Agricultural League, and others. Their political position usually lies between the DVP and DNVP. 
 
@@ -344,7 +344,7 @@ if (Q.sapd_formed && Q.sapd_r) {
             });
 }
 data = data.concat([
-if (Q.dvfp_formed && Q.dvfp_r) {
+// if (Q.dvfp_formed && Q.dvfp_r) {
     data.push({
             "id": "dvfp",
             "legend": "dvfp",
