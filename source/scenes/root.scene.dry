@@ -48,10 +48,10 @@ Q.dissent_percent = 5;
 // factions
 Q.factions = ['ludendorffists', 'conservatives', 'labor', 'reformist', 'neorevisionist'];
 // should this be normalized to 100%?
-Q.ludendorffists_strength = 15;
-Q.ludendorffists_dissent = 20;
-Q.conservatives_strength = 30;
-Q.conservatives_dissent = 0;
+Q.left_strength = 15;
+Q.left_dissent = 20;
+Q.center = 30;
+Q.center_dissent = 0;
 Q.labor_strength = 25;
 Q.labor_dissent = 5;
 Q.reformist_strength = 25;
@@ -108,6 +108,7 @@ Q.dvp_relation = 35;
 // DNVP and NSDAP are invariably hostile
 Q.DNVP_relation = 10;
 Q.NSDAP_relation = 0;
+Q.dvfp_relation = 0;
 
 Q.kpd_leader = "Thälmann";
 // alternative is the Conciliators as party leader
@@ -116,6 +117,7 @@ Q.z_leader = "Brüning";
 // party leader - can be Ludwig Kaas, Joseph Joos, or Adam Stegerwald after the 1928 December conference. Joos will be most friendly to the SPD.
 Q.z_party_leader = "Marx";
 Q.nsdap_leader = "Hitler";
+Q.dvfp_leader = "Ludendorff";
 
 // hmm... maybe we can play nice with Hindenburg???
 Q.hindenburg_relation = 25;
@@ -166,9 +168,9 @@ Q.reichswehr_loyalty = 0.2;
 // popular opinion
 // national ideology - on a binary scale
 // nationalism vs internationalism or pacifism or non-nationalism
-Q.nationalism = 60;
+Q.nationalism = 50;
 // socialism vs capitalism
-Q.socialism = 40;
+Q.socialism = 60;
 // pro-republic vs anti-republic
 Q.pro_republic = 59;
 
@@ -186,6 +188,7 @@ Q.presidential_powers = 0;
 Q.constitutional_protection = 0;
 Q.kpd_banned = 0;
 Q.nsdap_banned = 0;
+Q.dvfp_banned = 0;
 
 // coups and capital strikes happen when you upset the right or the capitalists too much with your policies. they're an additional check on your policies, when purely electoral checks don't suffice.
 // when coup_progress reaches 10 or capital_strike_progress reaches 10, there's a special event that launches the coup.
@@ -243,6 +246,7 @@ Q.workers_dvp = 0;
 Q.workers_dnvp = 5;
 Q.workers_nsdap = 0;
 Q.workers_other = 10;
+Q.workers_dvfp = 0;
 
 Q.old_middle_spd = 5;
 Q.old_middle_kpd = 0;
@@ -252,6 +256,7 @@ Q.old_middle_dvp = 25;
 Q.old_middle_dnvp = 25;
 Q.old_middle_nsdap = 10;
 Q.old_middle_other = 10;
+Q.old_middle_dvfp = 0;
 
 Q.new_middle_spd = 5;
 Q.new_middle_kpd = 1;
@@ -261,6 +266,7 @@ Q.new_middle_dvp = 25;
 Q.new_middle_dnvp = 10;
 Q.new_middle_nsdap = 5;
 Q.new_middle_other = 15;
+Q.new_middle_dvfp = 0;
 
 Q.rural_spd = 10;
 Q.rural_kpd = 0;
@@ -270,6 +276,7 @@ Q.rural_dvp = 15;
 Q.rural_dnvp = 45;
 Q.rural_nsdap = 5;
 Q.rural_other = 10;
+Q.rural_dvfp = 0;
 
 Q.unemployed_spd = 25;
 Q.unemployed_kpd = 55;
@@ -279,6 +286,7 @@ Q.unemployed_dvp = 0;
 Q.unemployed_dnvp = 5;
 Q.unemployed_nsdap = 15;
 Q.unemployed_other = 9;
+Q.unemployed_dvfp = 0;
 
 Q.catholics_spd = 15;
 Q.catholics_kpd = 2;
@@ -288,6 +296,7 @@ Q.catholics_dvp = 5;
 Q.catholics_dnvp = 5;
 Q.catholics_nsdap = 0;
 Q.catholics_other = 12;
+Q.catholics_dvfp = 0;
 
 
 // Current Reichstag composition
@@ -304,6 +313,7 @@ Q.dvp_r = 10;
 Q.dnvp_r = 20;
 Q.nsdap_r = 3;
 Q.other_r = 9;
+Q.dfvp_r = 0;
 
 // diff from prev
 Q.old_spd_r = 26;
@@ -314,6 +324,7 @@ Q.old_dvp_r = 10;
 Q.old_dnvp_r = 20;
 Q.old_nsdap_r = 3;
 Q.old_other_r = 9;
+Q.other_r = 0;
 
 // sapd isn't formed yet, but it may be formed
 Q.sapd_r = 0;
@@ -580,6 +591,8 @@ set-bg: img/map_2.jpg
 new-page: true
 
 > *"Die Reichswehr steht hinter mir. Ob sie zuverlässig ist, weiß ich nicht, aber sie gehorcht mir."*
+
+>*("The Reichwehr stands behind me.. i dom't know wether she is reliable, but she obeys me.")*
  
  - Hans von Seeckt on Friedrich Ebert's question wether the Reichswehr is reliable
 
