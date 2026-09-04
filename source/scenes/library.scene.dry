@@ -353,6 +353,7 @@ if (Q.dvfp_formed && Q.dvfp_r) {
             "seats": Math.round(Q.dvfp_r*5),
             });
 }
+data = data.concat([
     {
         "id": "spd",
         "legend": "SPD",
