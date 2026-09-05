@@ -29,6 +29,12 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 
 Internal dissent: [+ dissent_percent : dissent +]
 
+on-arrival: {!
+Q.pro_republic_disp = Math.round(Q.pro_republic);
+Q.nationalism_disp = Math.round(Q.nationalism);
+Q.socialism_disp = Math.round(Q.socialism);
+!}
+
 = Government
 
 President: [+ president +]
@@ -152,37 +158,6 @@ Prussian police: [+ prussian_police_strength +] thousand members.
 Prussian police loyalty: [+ prussian_police_loyalty : loyalty +]
 
 [? if spd_in_government : Interior police loyalty: [+ interior_police_loyalty : loyalty +] ?]
-
-@polls
-on-arrival: {!
-Q.pro_republic_disp = Math.round(Q.pro_republic);
-Q.nationalism_disp = Math.round(Q.nationalism);
-Q.socialism_disp = Math.round(Q.socialism);
-!}
-
-= Projected election results
-
-(if the election were to be held now):
-
-SPD: [+ spd_votes +]%
-
-[? if uspd_formed: USPD: [+ uspd_votes +]% ?]
-
-Z + BVP: [+ z_votes +]%
-
-KPD: [+ kpd_votes +]%
-
-[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ ddp_votes +]%
-
-DVP: [+ dvp_votes +]%
-
-DNVP: [+ dnvp_votes +]%
-
-NSDAP: [+ nsdap_votes +]%
-
-Others: [+ other_votes +]%
-
-[? if dvfp_formed: DVFP: [+ dvfp_votes +]% ?]
 
 **Detailed results for each demographic**
 
