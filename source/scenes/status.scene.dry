@@ -92,7 +92,9 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_relation : relationships +]
 
-= Internal Factions of the SPD
+{!<span class="tooltip-text" title="Socialdemocratic Party of Germany">SPD</span>!}: [+ spd_relation : relationships +]
+
+= Internal Factions of the Reichswehr
 
 {!<span class="tooltip-text" title="The Ludendorffists are a radical national-esoteric faction, wishing for a Volksarmee to avenge Versailles.">Ludendorffists</span>!} strength: [+ Ludendorffists_strength : strength +], dissent: [+ Ludendorffists_dissent : dissent +]
 
