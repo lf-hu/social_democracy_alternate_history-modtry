@@ -65,7 +65,7 @@ Reichstag composition:
 
 # 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 30, 1930: 25, 1932: 22
 SPD: [+ spd_r +]%
-[? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
+[? if uspd_formed and uspd_r > 0: USPD: [+ uspd_r +]% ?]
 # 1919: 20, 1920: 18, 1924 (1): 17, 1924 (2): 17, 1928: 15, 1930: 15, 1932: 
 Z + BVP: [+ z_r +]%
 # 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 10, 1930: 13... ts is irrelevant, there's a # in front of it...
@@ -158,7 +158,7 @@ go-to: menu
 # 1928: 30, 1930: 25, 1932: 22
 SPD: [+ spd_votes +]%
 
-[? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
+[? if uspd_formed: USPD: [+ uspd_votes +]% ?]
 
 # 1928: 15, 1930: 15, 1932: 
 Z + BVP: [+ z_votes +]%
@@ -185,17 +185,17 @@ Others: [+ other_votes +]%
 
 **Detailed results for each demographic**
 
-Workers: SPD: [+ workers_spd_display +]%, Z: [+ workers_z_display +]%, KPD: [+ workers_kpd_display +]%, [+ ddp_name +]: [+ workers_ddp_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?] [? if dvfp_formed: DVFP: [+ workers_dvfp_display +]% ?]
+Workers: SPD: [+ workers_spd_display +]%, Z: [+ workers_z_display +]%, KPD: [+ workers_kpd_display +]%, [+ ddp_name +]: [+ workers_ddp_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if uspd_formed: USPD: [+ workers_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ workers_dvfp_display +]% ?]
 
-New Middle Class: SPD: [+ new_middle_spd_display +]%, Z: [+ new_middle_z_display +]%, KPD: [+ new_middle_kpd_display +]%, [+ ddp_name +]: [+ new_middle_ddp_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?] [? if dvfp_formed: DVFP: [+ new_middle_dvfp_display +]% ?]
+New Middle Class: SPD: [+ new_middle_spd_display +]%, Z: [+ new_middle_z_display +]%, KPD: [+ new_middle_kpd_display +]%, [+ ddp_name +]: [+ new_middle_ddp_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if uspd_formed: USPD: [+ new_middle_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ new_middle_dvfp_display +]% ?]
 
-Old Middle Class: SPD: [+ old_middle_spd_display +]%, Z: [+ old_middle_z_display +]%, KPD: [+ old_middle_kpd_display +]%, [+ ddp_name +]: [+ old_middle_ddp_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?] [? if dvfp_formed: DVFP: [+ old_middle_dvfp_display +]% ?]
+Old Middle Class: SPD: [+ old_middle_spd_display +]%, Z: [+ old_middle_z_display +]%, KPD: [+ old_middle_kpd_display +]%, [+ ddp_name +]: [+ old_middle_ddp_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if uspd_formed: USPD: [+ old_middle_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ old_middle_dvfp_display +]% ?]
 
-Rural: SPD: [+ rural_spd_display +]%, Z: [+ rural_z_display +]%, KPD: [+ rural_kpd_display +]%, [+ ddp_name +]: [+ rural_ddp_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?] [? if dvfp_formed: DVFP: [+ rural_dvfp_display +]% ?]
+Rural: SPD: [+ rural_spd_display +]%, Z: [+ rural_z_display +]%, KPD: [+ rural_kpd_display +]%, [+ ddp_name +]: [+ rural_ddp_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if uspd_formed: USPD: [+ rural_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ rural_dvfp_display +]% ?]
 
-Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, KPD: [+ unemployed_kpd_display +]%, [+ ddp_name +]: [+ unemployed_ddp_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?] [? if dvfp_formed: DVFP: [+ unemployed_dvfp_display +]% ?]
+Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, KPD: [+ unemployed_kpd_display +]%, [+ ddp_name +]: [+ unemployed_ddp_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if uspd_formed: USPD: [+ unemployed_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ unemployed_dvfp_display +]% ?]
 
-Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [+ ddp_name +]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?] [? if dvfp_formed: DVFP: [+ catholics_dvfp_display +]% ?]
+Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [+ ddp_name +]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if uspd_formed: USPD: [+ catholics_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ catholics_dvfp_display +]% ?]
 
 @parties
 go-to: menu
@@ -336,12 +336,12 @@ data = [
         "name": "KPD",
         "seats": Q.kpd_r*5,
     }];
-if (Q.sapd_formed && Q.sapd_r) {
+if (Q.uspd_formed && Q.uspd_r) {
     data.push({
-            "id": "sapd",
-            "legend": "SAPD",
-            "name": "SAPD",
-            "seats": Math.round(Q.sapd_r*5),
+            "id": "uspd",
+            "legend": "USPD",
+            "name": "USPD",
+            "seats": Math.round(Q.uspd_r*5),
             });
 }
 if (Q.dvfp_formed && Q.dvfp_r) {
@@ -349,7 +349,7 @@ if (Q.dvfp_formed && Q.dvfp_r) {
             "id": "dvfp",
             "legend": "DVFP",
             "name": "DVFP",
-            "seats": Math.round(Q.sapd_r*5),
+            "seats": Math.round(Q.dfvp_r*5),
             });
 }
 data = data.concat([
@@ -420,8 +420,8 @@ if (d3 && window) {
 
     var lines = d3.linegraph(false, false,
             Q.parties,
-            {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0', 'sapd': '#c40000', 'dvfp': '#964B00'}, 
-            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.ddp_name, 'z': 'Z + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others', 'sapd': 'SAPD', 'dvfp': 'DVFP'});
+            {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0', 'uspd': '#c40000', 'dvfp': '#964B00'}, 
+            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.ddp_name, 'z': 'Z + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others', 'uspd': 'USPD', 'dvfp': 'DVFP'});
     lines.width(width).height(400);
     //var svg = lines(Q.election_records);
     if (Q.election_records.length > 0) {
@@ -433,8 +433,8 @@ if (d3 && window) {
     if (!Q.historical_mode || Q.game_over) {
         var lines_2 = d3.linegraph(true, true,
             Q.parties,
-            {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0', 'sapd': '#c40000', 'dvfp': '#964B00'}, 
-            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.ddp_name, 'z': 'Z + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others', 'sapd': 'SAPD', 'dvfp': 'DVFP'});
+            {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0', 'uspd': '#c40000', 'dvfp': '#964B00'}, 
+            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.ddp_name, 'z': 'Z + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others', 'uspd': 'USPD', 'dvfp': 'DVFP'});
         lines_2.width(width).height(400);
         d3.select("#party_support_history").datum(Q.party_support_records).call(lines_2);
     }
@@ -458,7 +458,7 @@ if (d3 && window) {
 {!<table>!}
 {!<tr><td><div class="box" style='background-color:#E3000F; outline: 2px; outline-style: solid;'> </div></td><td>!} **SPD:** {!</td><td>!} **[+ spd_r +]%** {!</td></tr>!}
 
-[? if sapd_formed : {!<tr><td><div class="box" style='background-color:#C40000'> </div></td> <td> !}SAPD: {!</td><td>!} [+ sapd_r +]% {!</td></tr>!} ?]
+[? if uspd_formed : {!<tr><td><div class="box" style='background-color:#C40000'> </div></td> <td> !}USPD: {!</td><td>!} [+ uspd_r +]% {!</td></tr>!} ?]
 
 [? if dvfp_formed : {!<tr><td><div class="box" style='background-color:#C40000'> </div></td> <td> !}DVFP: {!</td><td>!} [+ dvfp_r +]% {!</td></tr>!} ?]
 
