@@ -234,7 +234,7 @@ Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'cath
 Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
 
 // TODO: add 'uspd' later on
-Q.uspd_formed = 0;
+Q.uspd_formed = 1;
 Q.dvfp_formed = 1;
 
 // Support for party by social group
