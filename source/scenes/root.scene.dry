@@ -233,8 +233,8 @@ Q.new_middle_qol = 100;
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
 Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
 
-// TODO: add 'sapd' later on
-Q.sapd_formed = 0;
+// TODO: add 'uspd' later on
+Q.uspd_formed = 0;
 Q.dvfp_formed = 1;
 
 // Support for party by social group
@@ -327,9 +327,9 @@ Q.old_nsdap_r = 3;
 Q.old_other_r = 9;
 Q.other_r = 0;
 
-// sapd isn't formed yet, but it may be formed
-Q.sapd_r = 0;
-Q.old_sapd_r = 0;
+// uspd isn't formed yet, but it may be formed
+Q.uspd_r = 0;
+Q.old_uspd_r = 0;
 
 // for changing the DDP's name to the DStP
 Q.ddp_name = "DDP";
