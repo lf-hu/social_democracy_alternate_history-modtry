@@ -593,7 +593,7 @@ new-page: true
 
 > *"Die Reichswehr steht hinter mir. Ob sie zuverlässig ist, weiß ich nicht, aber sie gehorcht mir."*
 
->*("The Reichwehr stands behind me.. i dom't know wether she is reliable, but she obeys me.")*
+>*("The Reichwehr stands behind me.. i don't know wether it is reliable, but it obeys me.")*
  
  - Hans von Seeckt on Friedrich Ebert's question wether the Reichswehr is reliable
 
@@ -639,7 +639,7 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1928
+= 1918
 
 It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
 
