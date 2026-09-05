@@ -1,13 +1,13 @@
-title: 1929
-subtitle: A new year
+title: Back in the Homeland!
+subtitle: A new time...
 on-arrival: {!
 // see post_event.scene.dry for changes.
-Q.economic_growth -= 4;
+Q.economic_growth -= 5;
 
 !}
 tags: event
-view-if: year = 1929 and month = 1
+view-if: year = 1918 and month = 3
 priority: 2
 max-visits: 1
 
-A new year begins. The economy appears to be slackening; unemployment is increasing throughout the republic, although for the most part, people are still doing well.
+The last 4 Years General von Seeckt has been far away from home, first in the west, fighting the french, then in the east against the russians and finally in the south, fighting side by side with Archduke Karl, who would go on to be emperor, before being general staff to Enver Pasha. Yes, he had missed Berlin, with it's long rows of houses and the beautiful seas around the city. But what he had missed much more was his wife, for even though he had written to her frequently, he nonetheless highly anticipated seing her again.
