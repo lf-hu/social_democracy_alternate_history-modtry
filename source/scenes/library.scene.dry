@@ -456,7 +456,7 @@ if (d3 && window) {
 {!<svg id="reichstag" style="width: 500px; height: 250px;"> </svg>!}
 
 {!<table>!}
-{!<tr><td><div class="box" style='background-color:#E3000F; outline: 2px; outline-style: solid;'> </div></td><td>!} **SPD:** {!</td><td>!} **[+ spd_r +]%** {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#E3000F'> </div></td> <td>!}SPD: {!</td><td>!} [+ spd_r +]% {!</td></tr>!}
 
 [? if uspd_formed : {!<tr><td><div class="box" style='background-color:#C40000'> </div></td> <td> !}USPD: {!</td><td>!} [+ uspd_r +]% {!</td></tr>!} ?]
 
