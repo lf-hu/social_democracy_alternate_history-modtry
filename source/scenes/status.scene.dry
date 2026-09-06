@@ -92,7 +92,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_relation : relationships +]
 
-{!<span class="tooltip-text" title="Socialdemocratic Party of Germany">SPD</span>!}: [+ spd_relation : relationships +]
+{!<span class="tooltip-text" title="Social Democratic Party of Germany">SPD</span>!}: [+ spd_relation : relationships +]
 
 = Internal Factions of the Reichswehr
 
