@@ -4,7 +4,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 
 @start_menu
 new-page: true
-go-to: start_menu_2
+go-to: post_event
 
 = Hans von Seeckt: Die Gedanken eines Soldaten
 
