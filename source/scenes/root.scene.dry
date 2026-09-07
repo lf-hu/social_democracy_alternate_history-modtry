@@ -60,10 +60,10 @@ Q.neorevisionist_strength = 5;
 Q.neorevisionist_dissent = 10;
 
 // secret events...
-Q.unions_independent = 0;
+Q.pragmatist_split = 0;
 Q.conservatives_resign = 0;
-Q.ludendorffists_split = 0;
-Q.reformists_resigned = 0;
+Q.ludendorffists_revolt = 0;
+Q.reformers_resigned = 0;
 
 // have we discovered neorevisionism?
 Q.neorevisionism = 0;
@@ -72,7 +72,7 @@ Q.neorevisionism = 0;
 Q.crisis_urgency = 0;
 // nazi_urgency indicates how seriously the SPD takes the nazis - scale from 0 to 10.
 Q.nazi_urgency = 0;
-// radicalization indicates how radical the SPD's rhetoric is - scale from 0 to 10.
+// radicalization indicates how reformist her rhetoric is - scale from 0 to 10.
 Q.radicalization = 0;
 // Support for the WTB plan and proto-Keynesian works creation plans in general
 Q.wtb_support = 0;
