@@ -72,13 +72,13 @@ Q.neorevisionism = 0;
 Q.crisis_urgency = 0;
 // nazi_urgency indicates how seriously the SPD takes the nazis - scale from 0 to 10.
 Q.nazi_urgency = 0;
-// radicalization indicates how reformist her rhetoric is - scale from 0 to 10.
+// radicalization indicates how radical rhetoric is - scale from 0 to 10.
 Q.radicalization = 0;
-// Support for the WTB plan and proto-Keynesian works creation plans in general
+// Support for reform plans in general
 Q.wtb_support = 0;
 // Support for Pacifism within the SPD relative to 1928
 Q.pacifism = 0;
-// Support for democratic reform within the SPD relative to 1928
+// Support for democratic reform within the Reichswehr
 Q.democratization = 0;
 // Support for a communist coalition relative to 1928
 Q.communist_coalition = 0;
@@ -119,9 +119,10 @@ Q.z_leader = "Brüning";
 Q.z_party_leader = "Marx";
 Q.nsdap_leader = "Hitler";
 Q.dvfp_leader = "Wulle";
-Q.dvfp_leader = "Triumvirate";
+Q.spd_leader = "Triumvirate";
+Q.uspd_leader = "Triumvirate";
 
-// hmm... maybe we can play nice with Hindenburg???
+// president relations
 Q.hindenburg_relation = 25;
 // whether or not hindenburg can dismiss the government.
 Q.hindenburg_enabled = 0;
@@ -135,7 +136,7 @@ Q.prussian_government = "SPD";
 // The array of forces - paramilitary groups
 // Number of members in 1928 (in thousands)
 // Reichsbanner, stahlhelm, SA, rotfrontkämpferbund
-Q.rb_strength = 2000;
+Q.rb_strength = 0;
 Q.rb_militancy = 0.01;
 Q.women_in_rb = 0;
 Q.rb_banned = 0;
@@ -151,6 +152,10 @@ Q.rfb_strength = 130;
 Q.rfb_militancy = 0.5;
 Q.rfb_banned = 0;
 Q.rfb_banned_prussia = 0;
+Q.fk_strength = 80;
+Q.fk_militancy = 0.3;
+Q.fk_banned = 0;
+Q.fk_banned_prussia = 0;
 
 Q.interior_police_strength = 50;
 Q.interior_police_militancy = 1;
