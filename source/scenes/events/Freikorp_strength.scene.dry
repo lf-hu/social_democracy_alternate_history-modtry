@@ -1,6 +1,6 @@
 title: Freikorps are strengthening
 subtitle: Freikorps are gaining Strength and Manpower
-view-if: (fk_strength >= 300 and fk_militancy > 0.4)
+view-if: (fk_strength >= 300 and fk_militancy >= 0.4)
 new-page: true
 max-visits: 1
 on-arrival: left_strength += 15; reformist_strength -= 5; center_strength += 6; 
