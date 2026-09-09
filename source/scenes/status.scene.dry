@@ -137,7 +137,9 @@ Stahlhelm Militarization: [+ sh_militancy : militancy +]
 
 SA Militarization: [+ sa_militancy : militancy +]
 
-Freikorps Militarization: [+ sa_militancy : militancy +]
+Freikorps Militarization: [+ fk_militancy : militancy +]
+
+{!<span class="tooltip-text" title="The Freikorps are a wide range of veteran organizations, that sprung up after the Great War">Freikorps</span>!} Strength: [+ fk_strength_2 +] thousand
 
 = Official military/paramilitaries
 
