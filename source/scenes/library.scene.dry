@@ -256,6 +256,10 @@ Militarization: [+ sa_militancy : militancy +]
 
 **Freikorps**: Scattered groups of primarily demobilised soldiers and young nationalists. They vary strongly in their political Opinions, ranging from the national liberal "Offiziers-Kompanie-Cassel" (later Jungdeutscher Orden), lead by Arthur Mahraun, to the völkisch nationalist Freikorps Oberland, who supported the Beer Hall Putsch and later merged into the SA.
 
+Strength: [+ fk_strength +] thousand
+
+Militarization: [+ fk_militancy : militancy +] 
+
 **Official military/paramilitary groups:**
 
 **Reichswehr**: [+ reichswehr_strength +] thousand troops. This is the military of the German Reich. As *Chef des Truppenamtes*, it is your task to rebuild and restructure it after the devastating losses of the Great War.
