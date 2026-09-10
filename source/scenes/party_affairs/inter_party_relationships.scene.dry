@@ -1,19 +1,19 @@
-title: Inter-Party Relationships
+title: Political Salon
 new-page: true
-view-if: year <= 1932 and inter_party_relationships_timer <= 0
+view-if: political_salon_timer <= 0
 tags: party_affairs
 is-card: true
-on-arrival: month_actions += 1; inter_party_relationships_timer = 6;
+on-arrival: month_actions += 1; political_salon_timer = 5;
 card-image: img/weimar_coalition_2.jpg
-max-visits: 12
-#subtitle: Building relations with the other political parties of Germany.
+max-visits: 14
+#subtitle: Building relations with political and non-political personalities of Germany.
 
-= Inter-Party Relationships
+= Political Salon
 
-The SPD cannot govern by itself yet. Because we do not have an electoral majority, we need the support of other parties. Recently, our governments have consisted of the Weimar Coalition of the SPD, Center, and Democratic parties. We can reach out and build additional connections with these parties, or perhaps we can stand alone.
+Thanks to the efforts of my wife, Dorothee, a political salon has flourished in my house, i can use it to build relationships into all parts of society, from the Socialists of the SPD to the Monarchists of the DNVP.
 
-- @liberals: Strengthen our bonds with the left-liberal German Democratic Party and conservative-liberal German People's Party.
-- @center: Strengthen our bonds with the Catholic Center Party.
+- @liberals: I should see whether Rathenau or one of his colleagues is available
+- @center: Let's talk with the 
 - @kpd: Work towards repairing relationships with the Communist Party.
 - @spd_alone: The SPD can stand alone for now.
 - @easy_discard
