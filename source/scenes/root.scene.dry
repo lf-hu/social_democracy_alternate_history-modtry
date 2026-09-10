@@ -97,6 +97,9 @@ Q.nationalization_adopted = 0;
 // moderate economic plan
 Q.moderate_plan_support = 0;
 Q.moderate_plan_adopted = 0;
+Q.reformers_resigned = 0;
+Q.seeckt_left = 0;
+Q.seeckt_right = 3;
 
 // organizations
 
@@ -110,6 +113,7 @@ Q.DNVP_relation = 30;
 Q.NSDAP_relation = 5;
 Q.dvfp_relation = 20;
 Q.spd_relation = 40;
+Q.industrials_relation = 50;
 
 Q.kpd_leader = "Luxemburg";
 // alternative is the Conciliators as party leader
