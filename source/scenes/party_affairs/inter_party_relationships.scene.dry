@@ -5,25 +5,24 @@ tags: party_affairs
 is-card: true
 on-arrival: month_actions += 1; political_salon_timer = 5;
 card-image: img/weimar_coalition_2.jpg
-max-visits: 14
+max-visits: 15
 #subtitle: Building relations with political and non-political personalities of Germany.
 
 = Political Salon
 
-Thanks to the efforts of my wife, Dorothee, a political salon has flourished in my house, i can use it to build relationships into all parts of society, from the Socialists of the SPD to the Monarchists of the DNVP.
+Thanks to the efforts of my wife, Dorothee, a political salon has flourished in my house, I can use it to build relationships into all parts of society, from the Socialists of the SPD to the Monarchists of the DNVP.
 
-- @liberals: I should see whether Rathenau or one of his colleagues is available
-- @center: Let's talk with the 
-- @kpd: Work towards repairing relationships with the Communist Party.
-- @spd_alone: The SPD can stand alone for now.
+- @liberals: I should see whether Rathenau or one of his colleagues is available.
+- @center: Let's talk with some represantatives of the Center Party.
+- @spd: I should meet with Ebert again, i haven't seen him recently.
+- @dvp: Although I never quite liked Stresemann, the rest of the Party is quite sympathetic to me.
+- @dnvp: Let's meet with some old-conservatives and monarchists.
+- @industrials: How about some talks with the industry?
 - @easy_discard
 
 
-@kpd
-subtitle: -1 resources
-choose-if: resources >= 1
-unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 1; kpd_inter_party_seen += 1
+@spd
+on-arrival: kpd_inter_party_seen += 1
 go-to: kpd_blutmai if blutmai = 1; kpd_1 if blutmai = 0 and kpd_coalition_success = 0 and (kpd_relation < 40 or kpd_rectified_history = 1); kpd_rectification_of_history if kpd_relation >= 40 and kpd_rectified_history = 0; kpd_2 if kpd_coalition_success = 1 and kpd_rectified_history = 1
 
 @kpd_1
