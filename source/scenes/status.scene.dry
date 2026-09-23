@@ -18,54 +18,39 @@ if (Q.economic_growth) {
 
 [+ month : month +] [+ year +]
 
-Resources available: [+ resources +]
+Armee-Resourcen: [+ resources +]
 
-SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
-[? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_Ludendorffists_front and spd_in_government: Ludendorffists Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
+Unzufriedenheit: [+ dissent_percent : dissent +]
 
-[? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
+= Regierung
 
-[? if spd_in_government and (in_left_front or in_popular_front): KPD coalition dissent: [+ kpd_coalition_dissent : coalition_dissent +] ?]
+Präsident: [+ president +]
 
-Internal dissent: [+ dissent_percent : dissent +]
+Reichskanzler: [+ chancellor +] ([+ chancellor_party +])
 
-= Government
-
-President: [+ president +]
-
-Chancellor: [+ chancellor +] ([+ chancellor_party +])
-
-Reichstag composition:
+Reichstag Sitzverteilung:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Social Democratic Party of Germany">SPD</span>!}: [+ spd_r +]%
+{!<span class="tooltip-text" title="Sozialdemokratische Partei Deutschlands">SPD</span>!}: [+ spd_r +]%
 [? if uspd_formed and uspd_r > 0: uspd: [+ uspd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
 [? if dvfp_formed and dvfp_r > 0: DVFP: [+ dvfp_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-{!<span class="tooltip-text" title="Conservatives Party + Bavarian People's Party">Z + BVP</span>!}: [+ z_r +]%
+{!<span class="tooltip-text" title="Zentrum + Bayrische Volkspartei">Z + BVP</span>!}: [+ z_r +]%
 # 1928: 10, 1930: 13
-{!<span class="tooltip-text" title="Communist Party of Germany">KPD</span>!}: [+ kpd_r +]%
+{!<span class="tooltip-text" title="Kommunistische Partei Deutschlands">KPD</span>!}: [+ kpd_r +]%
 # 1928: 5, 1930: 4 (as DstP)
-{!<span class="tooltip-text" title="German Democratic Party">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_r +]%
+{!<span class="tooltip-text" title="Deutsche Demokratische Partei">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_r +]%
 # 1928: 9, 1930: 5
-{!<span class="tooltip-text" title="German People's Party">DVP</span>!}: [+ dvp_r +]%
+{!<span class="tooltip-text" title="Deutsche Volkspartei">DVP</span>!}: [+ dvp_r +]%
 # 1928: 14, 1930: 7
-{!<span class="tooltip-text" title="German National People's Party">DNVP</span>!}: [+ dnvp_r +]%
+{!<span class="tooltip-text" title="Deutschnationale Volkspartei">DNVP</span>!}: [+ dnvp_r +]%
 # 1928: 3, 1930: 18
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_r +]%
+{!<span class="tooltip-text" title="Nationalsozialistische Deutsche Arbeiterpartei (Nazis)">NSDAP</span>!}: [+ nsdap_r +]%
 # 1928: 9, 1930: 10
-Others: [+ other_r +]%
+Andere: [+ other_r +]%
 
-Next election: [+ next_election_month : month +] [+ next_election_year +]
-
-= Economics
-
-Inflation: [+ inflation_2 +]%
-
-[? if black_thursday_seen = 1 : Unemployment: [+ unemployed_2 +]% ?]
-
-Economic growth: [+ economic_growth_2 +]%
+Nächste Wahl: [+ next_election_month : month +] [+ next_election_year +]
 
 # = Public Opinion
 
@@ -90,20 +75,20 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="Social Democratic Party of Germany">SPD</span>!}: [+ spd_relation : relationships +]
 
-= Internal Factions of the Reichswehr
+= Interne Reichswehr Flügel
 
-{!<span class="tooltip-text" title="The Ludendorffists are a radical national-esoteric faction, wishing for a Volksarmee to avenge Versailles.">Ludendorffists</span>!} strength: [+ Ludendorffists_strength : strength +], dissent: [+ Ludendorffists_dissent : dissent +]
+{!<span class="tooltip-text" title="Die Ludendorffisten sind ein radikaler, antisemitischer und nationalistisch esoterischer Flügel, welcher hofft ein Volkssturm könne Versailes rächen.">Ludendorffists</span>!} strength: [+ Ludendorffists_strength : strength +], dissent: [+ Ludendorffists_dissent : dissent +]
 
-{!<span class="tooltip-text" title="The Conservatives are the Prussian old guard, they lie strong emphasis on tradition and discipline.">Conservatives</span>!} strength: [+ Conservatives_strength : strength +], dissent: [+ Conservatives_dissent : dissent +]
+{!<span class="tooltip-text" title="Die Konservativen sind die Preußische alte Garde der Armee. Sie legen Wert auf Tradition und Disziplin.">Conservatives</span>!} strength: [+ Conservatives_strength : strength +], dissent: [+ Conservatives_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Pragmatics area broad fation, accompanying all more or less pragmatic voices in the army.">Pragmatists</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
+{!<span class="tooltip-text" title="Pragmatiker sind ein nur lose zusammenhängender Flügel, sie repräsentieren zumeist unpolitische und pragmatische Stimmen innerhalb der Armee.">Pragmatists</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Reformers seek to reform the Reichswehr into a small, professional army, independent of political squabbles.">Reformers</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
+{!<span class="tooltip-text" title="Reformer wollen die Armee in eine kleine, professionelle Armee reformieren, welche von politischen Konflikten unabhängig ist.">Reformers</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
 
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
 
-@military
+@Militär
 on-arrival: {!
 if (Q.rb_strength) {
     Q.rb_strength_2 = Q.rb_strength.toFixed(1);
@@ -119,34 +104,34 @@ if (Q.sa_strength) {
 }
 !}
 
-= Paramilitaries
+= Paramilitärische Organisationen 
 
 {!<span class="tooltip-text" title="The Reichsbanner Schwarz-Rot-Gold is a popular organization for defending democracy, mostly affiliated with the SPD.">Reichsbanner</span>!} Strength: [+ rb_strength_2 +] thousand
 
-Reichsbanner Militarization: [+ rb_militancy : militancy +]
+Reichsbanner Militarisierung: [+ rb_militancy : militancy +]
 
 {!<span class="tooltip-text" title="The various communist paramilitaries are groups associated with the KPD, KAPD or even the USPD.">RFB</span>!} Strength: [+ rfb_strength_2 +] thousand
 
-RFB Militarization: [+ rfb_militancy : militancy +]
+RFB Militarisierung: [+ rfb_militancy : militancy +]
 
 {!<span class="tooltip-text" title="The Stahlhelm is a right-wing organization of war veterans associated with the DNVP.">Stahlhelm</span>!} Strength: [+ sh_strength_2 +] thousand
 
-Stahlhelm Militarization: [+ sh_militancy : militancy +]
+Stahlhelm Militarisierung: [+ sh_militancy : militancy +]
 
 {!<span class="tooltip-text" title="The SA (Sturmabteilung) is the Nazi paramilitary.">SA</span>!} Strength: [+ sa_strength_2 +] thousand
 
 SA Militarization: [+ sa_militancy : militancy +]
 
-Freikorps Militarization: [+ fk_militancy : militancy +]
+Freikorps Militarisierung: [+ fk_militancy : militancy +]
 
 {!<span class="tooltip-text" title="The Freikorps are a wide range of veteran organizations, that sprung up after the Great War">Freikorps</span>!} Strength: [+ fk_strength_2 +] thousand
 
-= Official military/paramilitaries
+= Offiziele Militärische und Polizeiliche Organisationen
 
 Reichswehr: [+ reichswehr_strength +] thousand troops.
 
-Reichswehr Loyalty: [+ reichswehr_loyalty : loyalty +]
+Reichswehr Loyalität: [+ reichswehr_loyalty : loyalty +]
 
-Prussian police: [+ prussian_police_strength +] thousand members.
+Preußische Polizei: [+ prussian_police_strength +] thousand members.
 
-Prussian police loyalty: [+ prussian_police_loyalty : loyalty +]
+Preußische Polizei Loyalität: [+ prussian_police_loyalty : loyalty +]
