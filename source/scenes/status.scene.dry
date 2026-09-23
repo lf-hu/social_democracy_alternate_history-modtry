@@ -88,7 +88,7 @@ Nächste Wahl: [+ next_election_month : month +] [+ next_election_year +]
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
 
-@Militär
+@Militaer
 on-arrival: {!
 if (Q.rb_strength) {
     Q.rb_strength_2 = Q.rb_strength.toFixed(1);
@@ -104,7 +104,7 @@ if (Q.sa_strength) {
 }
 !}
 
-= Paramilitärische Organisationen 
+= Paramilitaerische Organisationen 
 
 {!<span class="tooltip-text" title="The Reichsbanner Schwarz-Rot-Gold is a popular organization for defending democracy, mostly affiliated with the SPD.">Reichsbanner</span>!} Strength: [+ rb_strength_2 +] thousand
 
@@ -126,12 +126,12 @@ Freikorps Militarisierung: [+ fk_militancy : militancy +]
 
 {!<span class="tooltip-text" title="The Freikorps are a wide range of veteran organizations, that sprung up after the Great War">Freikorps</span>!} Strength: [+ fk_strength_2 +] thousand
 
-= Offiziele Militärische und Polizeiliche Organisationen
+= Offiziele Militaerische und Polizeiliche Organisationen
 
 Reichswehr: [+ reichswehr_strength +] thousand troops.
 
-Reichswehr Loyalität: [+ reichswehr_loyalty : loyalty +]
+Reichswehr Loyalitaet: [+ reichswehr_loyalty : loyalty +]
 
 Preußische Polizei: [+ prussian_police_strength +] thousand members.
 
-Preußische Polizei Loyalität: [+ prussian_police_loyalty : loyalty +]
+Preußische Polizei Loyalitaet: [+ prussian_police_loyalty : loyalty +]
