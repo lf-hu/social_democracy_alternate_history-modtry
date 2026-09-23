@@ -1,9 +1,9 @@
 
-(..5) hostile
-(5..14.9) frigid
-(14.9..29.9) cold
-(29.9..39.9) cool
-(39.9..54.9) neutral
-(54.9..64.9) warm
-(64.9..74.9) friendly
-(74.9..) very friendly
+(..5) Feindlich
+(5..14.9) Frostig
+(14.9..29.9) Kalt
+(29.9..39.9) Kühl
+(39.9..54.9) Neutral
+(54.9..64.9) Warm
+(64.9..74.9) Freundlich
+(74.9..) Sehr freundlich 
