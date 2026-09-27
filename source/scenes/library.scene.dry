@@ -13,6 +13,7 @@ Hier findest du die wichtigsten Informationen über Politik und Regierung der Er
 - @weimar_timeline: Seeckt's Leben vor dem Waffenstillstand von 1918 und seiner Rückkehr nach Deutschland
 - @curr_gov: Details zur aktuellen Regierung
 - @demographics: Demographien
+- @public_opinion
 - @parties: Parteien
 - @paramilitaries: Militärische und Paramilitärische Gruppierungen
 - @factions: Interne Flügel
@@ -55,11 +56,11 @@ go-to: cabinet if spd_in_government; menu if not spd_in_government
 
 = Current Government
 
-President: [+ president +]
+Reichspräsident: [+ president +]
 
-Chancellor: [+ chancellor +] ([+ chancellor_party +])
+Reichskanzler: [+ chancellor +] ([+ chancellor_party +])
 
-Reichstag composition:
+Reichstag Zusammensetzung:
 
 # 1919: 38, 1920: 22, 1924 (1): 21, 1924 (2): 26, 1928: 30, 1930: 25, 1932: 22
 SPD: [+ spd_r +]%
@@ -91,41 +92,41 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 @cabinet
 go-to: menu
 
-Current cabinet:
+Aktuelles Kabinett:
 
-Labor: [+ labor_minister_party +]
+Arbeit: [+ labor_minister_party +]
 
-Interior: [+ interior_minister_party +]
+Inneres: [+ interior_minister_party +]
 
-Finance: [+ finance_minister_party +]
+Finanzen: [+ finance_minister_party +]
 
-Economic: [+ economic_minister_party +]
+Wirtschaft: [+ economic_minister_party +]
 
-Justice: [+ justice_minister_party +]
+Justiz: [+ justice_minister_party +]
 
-Foreign: [+ foreign_minister_party +]
+Äuseres: [+ foreign_minister_party +]
 
 Reichswehr: [+ reichswehr_minister_party +]
 
-Agriculture: [+ agriculture_minister_party +]
+Landwirtschaft: [+ agriculture_minister_party +]
 
 
 @demographics
 go-to: menu
 
-**Demographic Groups**
+**Demographische Gruppen**
 
-**Working Class**: The urban working class - blue-collar workers in factories, workshops, mines, and the like. Most are socialist, supporting either the SPD or KPD. They make up 40-50% of the population.
+**Arbeiterklasse**: Die urbane Arbeiterklasse - Arbeiter in Fabriken, Werkstätten, Minen, und ähnlichem. Die meisten sind sozialistisch orientiert und unterstützen entweder die KPD oder die SPD. Etwa 40-50% der Bevölkerung besteht aus ihnen.
 
-**Old Mittelstand**: The old middle class consists of independent artisans, shopkeepers, and small-time businesspeople. They tend to be conservative and are the strongest base for the far right. 10-15% of the population.
+**Alter Mittelstand**: Der alte Mittelstand besteht aus unabhängigen Handwerkern, Ladenbesitzern, und Kleinunternehmern. Sie tendieren zu konservativen Meinungen und sind die stärkste Basis für rechtsextreme Parteien. 10-15% der Bevölkerung besteht aus ihnen.
 
-**New Mittelstand**: The new middle class consists of white-collar workers and government employees. This is the base of liberalism. 10-15% of the population.
+**Neuer Mittelstand**: Der neue Mittelstand besteht aus Büroangestellten und Beamten. Sie unterhalten meist liberale Meinungen und unterstützen DVP oder DDP. Sie machen 10-15% der Bevölkerung aus.
 
-**Rural**: Small and large farmers and independent rural workers. Protestant farmers often support the DNVP. 20-30% of the population.
+**Ländliche Bevölkerung**: Kleine und große Bauern, sowie unabhängige Landarbeiter. Protestantische Bauern unterstützen zumeist die DNVP oder kleinere Regionale Parteien. Sie stellen 20-30% der Bevölkerung.
 
-**Catholics** are the largest religious minority, at about 30% of the population. They disproportionately support the Center Party (or the Bavarian People's Party in Bavaria).
+**Katholiken** sind mit etwa 30% der Bevölkerung, die größte religiöse Minderheit im überwiegend protestantischen Deutschland. Sie wählen disproportional die Zentrumspartei (oder die Bayrische Volkspartei in Bayern).
 
-**Jews** account for between 0.5% to 1% of the population, and tend to support liberal parties, mostly the DDP, although substantial numbers support the SPD or KPD. They are heavily discrimiated against, mostly coming from the elites.
+**Juden** machen nur etwa 0.5% bis 1% der Bevölkerung aus, und tendieren eher zu liberalen Parteien, vor allem der DDP, auch wenn Teile KPD oder SPD unterstützen. Sie werden stark diskrimminiert, zumeist angeregt von der nationalistischen Elite.
 
 
 @public_opinion
@@ -138,13 +139,13 @@ view-if: (not historical_mode) or game_over
 go-to: election_algorithm
 set-jump: election_projections
 
-**Public Opinion**
+**Öffentliche Meinung**
 
-#Support for Socialism: [+ socialism +]%
+#Unterstützung von Sozialismus: [+ socialism +]%
 
-#Support for Nationalism: [+ nationalism +]%
+#Unterstützung von Nationalismus: [+ nationalism +]%
 
-Support for the Republic: [+ pro_republic_disp +]%
+Unterstützung der Republik: [+ pro_republic_disp +]%
 
 
 @election_projections
@@ -181,40 +182,26 @@ Others: [+ other_votes +]%
 
 [? if dvfp_formed: DVFP: [+ dvfp_votes +]% ?]
 
-**Detailed results for each demographic**
-
-Workers: SPD: [+ workers_spd_display +]%, Z: [+ workers_z_display +]%, KPD: [+ workers_kpd_display +]%, [+ ddp_name +]: [+ workers_ddp_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if uspd_formed: USPD: [+ workers_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ workers_dvfp_display +]% ?]
-
-New Middle Class: SPD: [+ new_middle_spd_display +]%, Z: [+ new_middle_z_display +]%, KPD: [+ new_middle_kpd_display +]%, [+ ddp_name +]: [+ new_middle_ddp_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if uspd_formed: USPD: [+ new_middle_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ new_middle_dvfp_display +]% ?]
-
-Old Middle Class: SPD: [+ old_middle_spd_display +]%, Z: [+ old_middle_z_display +]%, KPD: [+ old_middle_kpd_display +]%, [+ ddp_name +]: [+ old_middle_ddp_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if uspd_formed: USPD: [+ old_middle_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ old_middle_dvfp_display +]% ?]
-
-Rural: SPD: [+ rural_spd_display +]%, Z: [+ rural_z_display +]%, KPD: [+ rural_kpd_display +]%, [+ ddp_name +]: [+ rural_ddp_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if uspd_formed: USPD: [+ rural_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ rural_dvfp_display +]% ?]
-
-Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, KPD: [+ unemployed_kpd_display +]%, [+ ddp_name +]: [+ unemployed_ddp_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if uspd_formed: USPD: [+ unemployed_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ unemployed_dvfp_display +]% ?]
-
-Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [+ ddp_name +]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if uspd_formed: USPD: [+ catholics_uspd_display +]% ?] [? if dvfp_formed: DVFP: [+ catholics_dvfp_display +]% ?]
-
 @parties
 go-to: menu
 
-**SPD** - *Sozialdemokratische Partei Deutschlands* (Social Democratic Party of Germany) - A socialist and democratic party of the working class, founded after the ideas of Lasalle and Bebels. After the enormus repression under Bismark, they are the foremost defenders of the Republic. The right wing of the USPD and the MSPD (Majority-SPD) reunified into the modern SPD in 1922.
+**SPD** - *Sozialdemokratische Partei Deutschlands* - Eine sozialistische und demokratische Partei der Arbeiterklasse, begründet auf den Ideen von Lasalle und Bebel. Nach enormer Unterdrückung unter Bismarck, stehen sie nun als erster Verteidiger der Republik. Der rechte Flügel der USPD und die MSPD (Mehrheits-SPD) durchgingen 1922 eine Wiederbereinigung in die moderne SPD.
 
-**Z** - *Zentrumspartei* (Center Party) - a centrist to center-right Catholic party that mostly supports the Republic, and has historically been strongly surpressed under Bismark. They originally contested the 1919 elections as the "Christliche Volkspartei", directly incooperating the **BVP** (Bavarian People's Party), which represents Catholics in Bavaria and with whom they were even after, often associated with. [? if year >= 1930 or chancellor = "Brüning" : They have appeared to take a more conservative turn recently, with the rise of Brüning and the party leader, Ludwig Kaas. ?]
+**Z** - *Zentrumspartei* - Eine Mitte bis Mitte-Rechte, Katholische Partei, die zum Großteil die Republik unterstützt und historisch wie die SPD unter Bismarck unterdrückt wurde. In den Wahlen 1919 traten sie noch als Christliche Volkspartei an, wobei die BVP, die katholische Partei Bayerns noch direkt integriert war. Auch später affilierte sich die BVP meist direkt mit dem Zentrum.
 
-**DDP** - *Deutsche Demokratische Partei* (German Democratic Party) - a center-left liberal party, popular among the intelligensia and educated middle class. They emerged from the Progessives People's Party and include some left leaning national-liberals It is a strong supporter of the republic, but to declined in the 1920s, renaming to "Deutsche Staatspartei" (German State Party) and fading into obscurity. [? if year >= 1930 : They have recently reformed themselves as the German State Party (DStP). ?]
+**DDP** - *Deutsche Demokratische Partei* - Eine Mitte-linke, liberale Partei, populär unter Beamten und dem gebildeten Mittelstand. Sie entstand aus der Fortschrittlichen Volkspartei des Kaisrreichs und umfasst ein paar linksgerichtete Nationalliberale. Sie ist ein starker unterstützer der Demokratie, schwächte jedoch in den 1930ern ab und ging schliesslich nach einer Umbenennung in Deutsche Staatspartei in den Kleinparteienbereich unter.
 
-**DVP** - *Deutsche Volkspartei* (German People's Party) - a conservative-liberal party, supported by the middle classes and bourgeoisie.  They emerged from the National-Liberal Party after the war and are led by Gustav Stresemann, a republican by reason.
+**DVP** - *Deutsche Volkspartei* - Eine konservativ-liberale Partei, welche vom Mitelstand und der Bourgeoisie unterstützt wird. Sie formte sich nach dem Krieg aus der Nationalliberalen Partei heraus und wird von Gustav Stresemann, einem sogenannten "Vernunftsrepublikaner" angeführt.
 
-**DNVP** - *Deutschnationale Volkspartei* (German National People's Party) - a right-wing nationalist-conservative party, with authoritarian, monarchist, and racist elements, which is strongly supportive of rearmament. It is supported by the former aristocracy, rural landowners, and conservative Lutherans.
+**DNVP** - *Deutschnationale Volkspartei* - Eine rechte, nationalistisch-konservative Partei, mit autoritären, monarchistischen und rassistischen Elementen, welche Wiederaufrüstung stark unterstützt. Sie wird von der früheren Aristokratie, Junkern (Landeigentümern) und konservativen Protestanten unterstützt.
 
-**KPD-SB** - *Kommunistische Partei Deutschlands - Spartakusbund* (German Communist Party) - a radical left-wing offshoot of the USPD that emerged in the aftermath of the German Revolution of 1918, they follow the path of Moscow, opposing parliamentary democracy in favor of a Soviet-style revolution. They are strong proponnents of a council republic.
+**KPD-SB** - *Kommunistische Partei Deutschlands - Spartakusbund* - a radical left-wing offshoot of the USPD that emerged in the aftermath of the German Revolution of 1918, they follow the path of Moscow, opposing parliamentary democracy in favor of a Soviet-style revolution. They are strong proponnents of a council republic.
 
-**USPD** - *Unabhängige Sozialdemokratische Partei Deutschlands* (Independent Social Democratic Party of Germany) - a socialist, democratic and pacifist party of the working class, that split from the SPD, following their support for war-credits. It was formally established in 1917 and was part of the Council of People's Deputies, together with the SPD, before the National Assembly was elected. The majority of the party merged into the KPD in 1920, with most remaining members rejoining the SPD in 1922.
+**USPD** - *Unabhängige Sozialdemokratische Partei Deutschlands* - a socialist, democratic and pacifist party of the working class, that split from the SPD, following their support for war-credits. It was formally established in 1917 and was part of the Council of People's Deputies, together with the SPD, before the National Assembly was elected. The majority of the party merged into the KPD in 1920, with most remaining members rejoining the SPD in 1922.
 
-**DVFP** - *Deutschvölkische Freiheitspartei* (German-Völkisch Freedomparty) - a far-right, esoteric, nationalist and antisemitic party, somewhat of a predecessor to the NSDAP. It is mostly grounded around Ludendorff's personal cult and split from the DNVP in 1922, following the murder of Walther Rathenau (DDP) and the subsequent expulsion of Wilhelm Hennig from he party, following an antisemitic speech of him, in which he said that the german people would hold Rathenau accountable for what he did.
+**DVFP** - *Deutschvölkische Freiheitspartei* - a far-right, esoteric, nationalist and antisemitic party, somewhat of a predecessor to the NSDAP. It is mostly grounded around Ludendorff's personal cult and split from the DNVP in 1922, following the murder of Walther Rathenau (DDP) and the subsequent expulsion of Wilhelm Hennig from he party, following an antisemitic speech of him, in which he said that the german people would hold Rathenau accountable for what he did.
 
-**NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - (National Socialist German Worker's Party, or Nazis) - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but were re-legalized and rose to prominence in the great depression. After their rise to power they quickly cemented their power and soon began a campaign of unspeakable horror all over europe.
+**NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but were re-legalized and rose to prominence in the great depression. After their rise to power they quickly cemented their power and soon began a campaign of unspeakable horror all over europe.
 
 **Other parties** - there is a multitude of small, mostly conservative parties, such as the Economic Party of the German Middle Class, the Farmer's Party, the Agricultural League, and others. Their political position usually lies between the DVP and DNVP. 
 
