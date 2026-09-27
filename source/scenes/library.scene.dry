@@ -1,44 +1,42 @@
-title: library
+title: bibliothek
 new-page: true
 is-special: true
 go-to: menu
 
-= The Library
+= Die Bibliothek
 
-Herein contains relevant information about the government and politics of the German republic.
+Hier findest du die wichtigsten Informationen über Politik und Regierung der Ersten Deutschen Republik
 
 @menu
 
-- @government: Germany's system of government
-- @weimar_timeline: Seeckt's Life before the Armstice of 1918 and his Return to Germany
-- @curr_gov: Current government details
-- @demographics: Demographics
-- @parties: Parties
-- @public_opinion: Public opinion (and projected election results)
-- @paramilitaries: Paramilitary groups
-- @factions: Internal factions
-- @figures: Figures and charts
-- @backSpecialScene: Exit library.
-
+- @government: Deutschland's Regierungssystem
+- @weimar_timeline: Seeckt's Leben vor dem Waffenstillstand von 1918 und seiner Rückkehr nach Deutschland
+- @curr_gov: Details zur aktuellen Regierung
+- @demographics: Demographien
+- @parties: Parteien
+- @paramilitaries: Militärische und Paramilitärische Gruppierungen
+- @factions: Interne Flügel
+- @figures: Wahlstatistiken
+- @backSpecialScene: Bibliothek verlassen.
 @government
 go-to: menu
 
-The German Republic (officially known as the German Reich), called by some of our detractors as the "Weimar Republic", after a term coined by Adolf Hitler, is a semi-presidential republic with a somewhat strong Reichspräsident, having the surpreme powers over the military, as well as extensive emergency powers. However the main power still lies with the parliament, called the Reichstag, which is controlled by the Reichsrat, the represantatives of the Länder. The Reichstag is responsible for governing, while the President has a largely ceremonial role but also has some important governing responsibilities.
+Die Deutsche Republik (offiziell als Deutsches Reich bekannt), heute unter dem Namen der Weimarer Republik bekannt ( Ein Name der ursprünglich von Adolf Hitler genutzt wurde) ist eine semi-präsidentale Republik mit einem relativ starken Reichspräsidenten, welcher nicht nur das Oberkommando über das Militär sondern auch weitreichende Notstandsbefugnisse innehatte. Jedoch liegt die Hauptmacht dennoch bei dem Parlament, welches Reichstag genannt wird und vom Reichsrat, den Repräsentanten der Länder kontrolliert wird. Der Reichstag stellt die Regierung, während der Reichspräsident eine zumeist zermoniele Rolle innehat, mit ein paar wichtigen Regierungsverantwortlichkeiten.
 
-The Reichstag is elected based on a proportional representation system, giving parties seats roughly proportional to their vote share in each electoral district. The Reichstag then elects the Chancellor, selected by the President and the cabinet by a majority vote, who are responsible for government. A majority vote-of-no-confidence can remove the current government.
+Der Reichstag wird basierend auf einem gleichen, direkten, geheimen und proportionalen Wahlsystem gewählt. Daraufhin bestimmt der Präsident den Kanzler und sein Kabinett welcher vom Reichstag mit einer Mehrheit gewählt wird und eine Regierung bildet. Wenn eine Mehrheit in einem Mißtrauensvotum gegen die Regeirung stimmt, wird diese abgesetzt und entweder eine neue Regierung gebildet oder neue Wahlen abgehalten. 
 
-The President is elected by a national direct vote, in two rounds. The second round is used if the first round does not result in a majority for one candidate; the candidate who receives a plurality in the second round becomes president (there is no obligation for weaker candidates to drop out). The role of the president is mostly to represent Germany, but he also has some crucial governing powers. The president and chancellor can together use emergency decrees to govern, bypassing the Reichstag. The president can also appoint or remove a chancellor when a parliamentary majority is unable to be established, and can thus influence the formation of a government.
+Der Präsident wird durch eine nationale und direkte Wahl in 2 Runden gewählt. Die 2. Runde wird abgehalten falls sich in der ersten Runde keine Mehrheit findet. Dabei wird in der 2. Runde nur noch eine Pluralität benötigt um Präsident zu werden (Es besteht keine Pflicht für schwächere Kandidaten aus dem Rennen auszuscheiden). Die Rolle des Präsidenten ist es zumeist nur Deutschland National und International zu repräsentieren, jedoch hat er wichtige konstitutionelle Kräfte. Reichspräsdent und Reichskanzler können zusammen durch Artikel 48 im Ausnahmezustand regieren indem sie Notverordnungen erlassen und den Reichstag somit umgehen. Zudem kann der Präsident einen neuen Kanzler ernennen und stürzen, selbst wenn dieser eine parlamentarische Mehrheit hinter sich hat.
 
-Germany is divided into a number of states, the "Länder" each of which have their own governments with some responsibilities. By far the largest and most important state is Prussia.
+Das Deutsche Reich ist in 17 (später 18), zumeist kleine Länder unterteilt, welche jeweils Landtage wählen und Regierungen mit lokaler Regierungsgewalt stellen. Der mit Abstand größte und wichtigste Staat ist Preußen.
 
-At the time of the Game's Start, this Government System is not yet clearly established as the people are revolting all across the failing Empire...
+Am Beginn des Spieles ist das Regierungssystem noch nicht etabliert und Aufstände sind überall im Deutschen Reich entflammt...
 
 @weimar_timeline
 go-to: menu
 
 = The Life of General Seeckt before the Game's Start
 
-**1866**: On the 22. of April, Hans von Seeckt is born third child to prussian military officer Richard von Seeckt and his wife Augusta von Seeckt. 
+**1866**: Am 22. April wird Hans von Seeckt, als 3. Kind des preußischen Militäroffiziers Richard von Seekt und seiner Frau Augusta von Seeckt geboren. 
 
 **1885**: After graduating, Seeckt joins the Kaiser Alexander Garde-Grenadier-Regiment Nr.1 of the prussian army and starts to work his way up
 
