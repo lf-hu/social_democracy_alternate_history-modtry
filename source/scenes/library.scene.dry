@@ -39,22 +39,22 @@ go-to: menu
 
 **1866**: Am 22. April wird Hans von Seeckt, als 3. Kind des preußischen Militäroffiziers Richard von Seekt und seiner Frau Augusta von Seeckt geboren. 
 
-**1885**: After graduating, Seeckt joins the Kaiser Alexander Garde-Grenadier-Regiment Nr.1 of the prussian army and starts to work his way up
+**1885**: Nach seinem Schulabschluss, tritt Seeckt der Kaiser Alexander Garde-Grenadier-Regiment I., der Preußischen Armee bei und beginnt seinen Weg hochzuarbeiten.
 
-**1896**: He continues to rise through the ranks after completing his general staff training, graduating amongst the top of his class.
+**1896**: Er legt weiterhin eine steile Militärskarriere hin, nachdem er seine Ausbildung zum Generalstab mit Bestnoten beendet.
 
-**1915**: At the start of the War, Seeckt is lieutenant-colonel and general staff of the III. army-corps on the western front, before being relocated to the newly set up 11. Army on the east front, where he served under August von Mackensen. Together with Mackensen he wins several crucial battles, such as the Battle of Gorlice/Tarnów, for which he was awarded the Por-le-Mérite Order. In June of the same year. Seeckt was promoted to Generalmajor and in the following months, after the success of the serbian campaign, he was awarded oak leaves (eichenlaub) to his order pour-le-mérite.
+**1915**: Bei Ausbruch des Krieges ist Seeckt Oberstlieutenant und Generalstab des III. Armeekorps der Westfront. Nach anfänglichen Siegen wird er an die Ostfront, zur neu aufgestellten 11. Armee transferiert, wo er unter August Mackensen dient. Zusammen mit diesem gilt er als Verantwortlicher für mehrere wichtige Siege, wie z.B. die Schlacht von Gorlice-Tarnów, für welche er den Por-le-Mérite Orden erhielt, die höchste preußische Auszeichnung. Im Juni des selben Jahres wurde er auf Wunsch Mackensens, außer der Reihe zum Major befördert und in dem daraufolgenden Serbischen Feldzug, verdiente er sich Eichenlaub für seinen Pour-le-Mérite.
 
-**1916**: During the russian offensive of 1916, Seeckt briefly served as Chief of Staff of the 7. army.
+**1916**: Während der Russischen "Brussilow"-Offensive 1916,  wurde Seeckt kurzzeitig als Generalstab der 7. Armee eingesetzt, konnte die Offensive jedoch nur schlecht verteidigen.
 
-**1917**: In December of 1917, Seeckt was sent to replace von Schellendorf as german counselor to and de-facto Chief of Staff of the Ottoman Empire. However, cooperation would prove dificult, as Enver Pascha, while willing to take counsel, would always disregard their opinion if it varied from his own. From his position he refused to condemn the genocide of armenians, arguing such measures were necesary to save Turkey from "internal decay".
+**1917**: Nach verschiedenen Beratertätigkeiten in Österreich, wurde Seeckt auf eigenen Wunsch im Dezember 1917 nach Konstantinopel geschickt um von Schellendorf als Deutschen Berater und de-facto Generalstab der Osmanischen Armee zu ersetzen. Jedoch würde es sich bald zeigen das Kooperation sich mühselig gestalten würde, da Enver Pascha zwar gewillt war Rat zu hören, diesen jedoch ignorierte falls er von seiner eigenen Meinung abwich. Seeckt weigerte sich auch den Massenmord an Armeniern anzuerkennen, da er glaubte das solche Maßnahmen notwendig seihen um die Türkei vor "Internem Verfall" zu schützen.
 
-**1918**: In the wake of inevitable defeat, Seeckt helped organizing the escape of the "Three Pashas", also known as the Young Turk triumvirate, before himself returning to Germany in November of 1918...
-
+**1918**: Im Angesicht einer unausweichlichen Niederlage, half Seeckt die "Flucht der 3 Pashas" (Enver Pasha, Cemal Pasha, Taalat Pasha) zu organisieren , bevor er selbst, im November 1918, nach Deutschland zurückkehrte...
+ 
 @curr_gov
 go-to: cabinet if spd_in_government; menu if not spd_in_government
 
-= Current Government
+= Aktuelle Regierung
 
 Reichspräsident: [+ president +]
 
@@ -199,61 +199,61 @@ go-to: menu
 
 **USPD** - *Unabhängige Sozialdemokratische Partei Deutschlands* - Eine sozialistische, demokratische und pazifistische Partei der Arbeiterklasse, welche aufgrund der Burgfriedenspolitik der SPD, sich von dieser abspaltete.Die Partei wurde formell 1917 gegründet und war, zusammen mit der SPD, Teil des Rat's der Volksbeauftragten, bevor die Volksversammlung gewählt wurde. 1920 vereinigte sich die Mehrheit der USPD mit der KPD.
 
-**DVFP** - *Deutschvölkische Freiheitspartei* - a far-right, esoteric, nationalist and antisemitic party, somewhat of a predecessor to the NSDAP. It is mostly grounded around Ludendorff's personal cult and split from the DNVP in 1922, following the murder of Walther Rathenau (DDP) and the subsequent expulsion of Wilhelm Hennig from he party, following an antisemitic speech of him, in which he said that the german people would hold Rathenau accountable for what he did.
+**DVFP** - *Deutschvölkische Freiheitspartei* - Eine rechtsextreme, esoterische, nationalistische und antisemitische Partei, welche in gewißer Weise ein Vorläufer der NSDAP war. Sie spaltete sich 1922  nach der Ermordung Walther Rathenau's und dem darauffolgenden Parteiausschlußes Wilhelm Hennig's, welcher kurz vorher eine antisemitische Rede gehalten hatte, in der er meinte das Deutsche Volk würde Rathenau zur Rechenschaft ziehen. Sie ist zum Großteil um einen Persönlichkeitskult Ludendorff's organisiert.
 
-**NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but were re-legalized and rose to prominence in the great depression. After their rise to power they quickly cemented their power and soon began a campaign of unspeakable horror all over europe.
+**NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - eine rechtsextreme, nationalistische und antisemitische Partei. Angeführt von Adolf Hitler, versuchten sie 1923 durch den Bierhallenputsch an die Macht zu kommen und wurden deshalb verboten. In den darauffolgenden Jahren wurde sie re-legalisiert und ist durch die Weltwirtschaftskrise populär geworden. Nach ihrer Machtübernahme 1933, gelang es ihnen schnell ihre Macht zu festigen und sie begann eine Kampagne unaussprechlichem Horrors über ganz Europa.
 
-**Other parties** - there is a multitude of small, mostly conservative parties, such as the Economic Party of the German Middle Class, the Farmer's Party, the Agricultural League, and others. Their political position usually lies between the DVP and DNVP. 
+**Andere Parteien** - Es gibt eine Anzahl kleiner, meist konservativen Parteien, wie die Wirtschaftspartei des deutschen Mittelstandes, der Deutsche Bauernbund, der Reichslandbund, die Interessengemeinschaft der Kleinrentner und Inflationsgeschädigten und viele Andere. Ihre politische Position liegt meist zwischen DVP und DNVP. 
 
 @paramilitaries
 on-arrival: {!
-Q.rb_strength = Math.round(Q.rb_strength);
-Q.sh_strength = Math.round(Q.sh_strength);
-Q.sa_strength = Math.round(Q.sa_strength); 
+Q.rb_Stärke = Math.round(Q.rb_strength);
+Q.sh_Stärke = Math.round(Q.sh_strength);
+Q.sa_Stärke = Math.round(Q.sa_strength); 
 !}
 go-to: menu
 
-**Paramilitary groups:**
+**Paramilitärische Gruppierungen:**
 
-**Reichsbanner Schwarz-Rot-Gold**: The Reichsbanner is an organization affiliated with all of the democratic parties - the SPD, Z, and DDP, but primarily with the SPD. It was formed in February 1924, and although technically a paramilitary, it is an unarmed and rather ceremonial organization.
+**Reichsbanner Schwarz-Rot-Gold**: Das Reichsbanner ist eine Organisation die mit den Parteien der Weimarer-Koalition affiliert ist - der SPD, dem Zentrum und der DDP, wobei die SPD die Mehrheit der Mitglieder stellt. Es wurde im Februar 1924 geformt und obwohl theoretisch ein Paramilitär, ist es eine unbewaffnete, eher zeremonielle Organisation.
 
-Strength: [+ rb_strength +] thousand
+Stärke: [+ rb_strength +] tausend
 
-Militarization: [+ rb_militancy : militancy +]
+Militarisierung: [+ rb_militancy : militancy +]
 
-**Div. Communist Paramiltaries such as: Roter Soldatenbund (RSB), Rote Ruhrarmee, Proletarische Hundertschaften, Rotfrontkämpferbund (RFB)**: These Comunist Groups are associated with the KPD-SB and were born out of the German Revolution, opposing both the Kaiserreich and the newly formed Bourgeois Republic.
+**Div. Kommunistische Paramiltäre, wie: der Roter Soldatenbund (RSB), die Rote Ruhrarmee, die Proletarischen Hundertschaften, der Rotfrontkämpferbund (RFB), usw.**: Diese Comunist Groups are associated with the KPD-SB and were born out of the German Revolution, opposing both the Kaiserreich and the newly formed Bourgeois Republic.
 
-Strength: [+ rfb_strength +] thousand
+Stärke: [+ rfb_strength +] tausend
 
-Militarization: [+ rfb_militancy : militancy +]
+Militarisierung: [+ rfb_militancy : militancy +]
 
 **Der Stahlhelm**: A right-wing nationalist organization of primarily Great War veterans, founded on the 25. December 1918, descended from the *Freikorps* that emerged after the war. Lead by a "Führer" it is associated with the DNVP.
 
-Strength: [+ sh_strength +] thousand
+Stärke: [+ sh_strength +] tausend
 
-Militarization: [+ sh_militancy : militancy +]
+Militarisierung: [+ sh_militancy : militancy +]
 
 **Sturmabteilung (SA)**: The nazi paramilitary group. Founded in November of 1920 as the sports- and gymnastics-section of the DAP, it was only renamed to it's, now well known name, on the 5. of October 1921. It consists of Völkisch Freikorps and Reichswehr soldiers.
 
-Strength: [+ sa_strength +] thousand
+Stärke: [+ sa_strength +] tausend
 
-Militarization: [+ sa_militancy : militancy +] 
+Militarisierung: [+ sa_militancy : militancy +] 
 
 **Freikorps**: Scattered groups of primarily demobilised soldiers and young nationalists. They vary strongly in their political Opinions, ranging from the national liberal "Offiziers-Kompanie-Cassel" (later Jungdeutscher Orden), lead by Arthur Mahraun, to the völkisch nationalist Freikorps Oberland, who supported the Beer Hall Putsch and later merged into the SA.
 
-Strength: [+ fk_strength +] thousand
+Stärke: [+ fk_strength +] tausend
 
-Militarization: [+ fk_militancy : militancy +] 
+Militarisierung: [+ fk_militancy : militancy +] 
 
 **Official military/paramilitary groups:**
 
-**Reichswehr**: [+ reichswehr_strength +] thousand troops. This is the military of the German Reich. As *Chef des Truppenamtes*, it is your task to rebuild and restructure it after the devastating losses of the Great War.
+**Reichswehr**: [+ reichswehr_strength +] tausend troops. This is the military of the German Reich. As *Chef des Truppenamtes*, it is your task to rebuild and restructure it after the devastating losses of the Great War.
 
-Loyalty: [+ reichswehr_loyalty : loyalty +]
+Loyalität: [+ reichswehr_loyalty : loyalty +]
 
-**Prussian police**: [+ prussian_police_strength +] thousand members.
+**Preußische Polizei**: [+ prussian_police_strength +] tausend members.
 
-Loyalty: [+ prussian_police_loyalty : loyalty +]
+Loyalität: [+ prussian_police_loyalty : loyalty +]
 
 
 
