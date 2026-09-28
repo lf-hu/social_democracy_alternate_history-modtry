@@ -82,12 +82,6 @@ Others: [+ other_r +]%
 #
 [? if dvfp_formed and dvfp_r > 0: DVFP: [+ dvfp_r +]% ?]
 
-SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
-[? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_left_front and spd_in_government: Left Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
-
-[? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
-
-[? if spd_in_government and (in_left_front or in_popular_front): KPD coalition dissent: [+ kpd_coalition_dissent : coalition_dissent +] ?]
 
 @cabinet
 go-to: menu
@@ -262,44 +256,43 @@ go-to: neorevisionists if neorevisionism > 0; menu if neorevisionism <= 0
 
 **Internal factions of the Reichswehr**
 
-Overall dissent: [+ dissent_percent : dissent +]
+Allgemeine Unzufriedenheit: [+ dissent_percent : dissent +]
 
 # ludendorffist-left, conservatives-center, reformers-reformists, pragmatist-labor
 **Ludendorffisten**
 
-Die Ludendorffisten, centered around General Ludendorff and his ideas are strongly opposed to the reforms anticipated by the reformers around Seeckt and Groener, while supporting their own reform agenda, aiming to transform the army into a "Volksarmee" incooperating all germans eligible for service. They are strongly national revanchist, believing in a racial war to "clean" the european continent and assert German dominance over it's neighbours.
+Die Ludendorffisten, sehen Ludendorff als Leitfigur und folgen seinen Ideen. Sie lehnen Seeckt's und Groener's Reformideen klar ab und hoffen eine Volksarmee zu erschaffen, welche alle kriegstüchtigen Deutschen umfasst. Sie gehen über den National-Revanchismus hinaus indem sie sn einen "Rassenkrieg" herbeiführen wollen um den Europäischen Kontinent zu "reinigen" und Deutsche Dominanz zu sichern.
 
-Strength: [+ left_strength : strength +]
+Stärke: [+ left_strength : strength +]
 
-Dissent: [+ left_dissent : dissent +]
+Unzufriedenheit: [+ left_dissent : dissent +]
 
 **Conservatives**
 
-The conservative clique in the Reichswehr is strongly oriented around pre-great war doctrine and sceptical of all reform, while tolerating Seeckt. They are personally opposed to the Republic and would like to see an authocratic ruler in it's place (preferably the Kaiser). They uphold prussian traditions and believe the army should follow Moltke's and Clausewitz footsteps.
+Die Konservative Clique der Reichswehr ist stark an der Doktrin der Vorkriegszeit orientiert und während sie Seeckt tolerieren, stehen sie möglichen Reformen skeptisch entgegen. Sie sind persönlich Anti-Republikaner, Autokraten und Monarchisten, wobei der Großteil eine Rückkehr des Kaisers befürwortet. Sie erhalten preußische Tradition aufrecht und glauben an eine Armee die Moltke's und Clausewitz Fußstapfen folgen sollte.
 
-Strength: [+ center_strength : strength +]
+Stärke: [+ center_strength : strength +]
 
-Dissent: [+ center_dissent : dissent +]
+Unzufriedenheit: [+ center_dissent : dissent +]
 
-**Pragmatists**
+**Pragmatiker**
 
-The pragmatists are the biggest faction in the reichswehr, but also the most diverse and broadly described one, ranging from repunlicans by conviction to bavarian regionalists. It is mostly apolitical and generally supportive of army reforms, although certain groups withhin this faction may swing either way, depending on the question.
+Die Pragmatiker sind der mit Abstand größte Flügel der Reichswehr, aber gleichzeitig auch der diverseste und unspezifischste. Er umfasst alle von überzeugten Republikanern bis zu Bayrischen Regionalisten. Der Flügel ist zum Großteil jedoch apolitisch und unterstützt generell Armeereformen, obwohl verschiedene Gruppen, je nach Art der Reform, in ihrer Unterstützung stark variieren können. 
 
-Strength: [+ labor_strength : strength +]
+Stärke: [+ labor_strength : strength +]
 
-Dissent: [+ labor_dissent : dissent +]
+Unzufriedenheit: [+ labor_dissent : dissent +]
 
-**Reformers**
+**Reformer**
 
-Reformers, centered around Seeckt and Groener, are in most cases disapproving, but pragmatic regarding their stance on the Republic and are standing fully behind Seeckt and his ambitions to reform the Reichswehr into a politically independent, professional army. They operate in the spirit of Mackensen's Blitzkrieg and Moltke's Auftragstaktik, while adhering to the requirements of politics.
+Reformer, Rund um Seeckt und Groener, sind in den meisten Fällen der Republik gegenüber oppositionell eingestellt, aber pragmatisch was Kooperation mit dieser angeht. Sie stehen jedoch voll hinter Seeckt und seinen Ambitionen die Reichswehr in eine politisch unabhängige und professionelle Armee zu reformieren. In ihrer Doktrin operieren sie im Geist von Mackensen's Blitzkrieg und Moltke's Auftragstaktik, während sie bereit sind politische Grenzen zu achten.
+Stärke: [+ reformist_strength : strength +]
 
-Strength: [+ reformist_strength : strength +]
+Unzufriedenheit: [+ reformist_dissent : dissent +]
 
-Dissent: [+ reformist_dissent : dissent +]
+**Republikaner**
 
-**Republicans**
-
-Republican behaviour was strongly discouraged in the german army as long as the war was ongoing. However, with the november revolution, republicans and socialist gained traction withhin the army, only to be eiher discharged or to resign after the Kapp-Putsch. While their most important member is Reinhardt, mostly lower ranked soldiers are part of it.
+Republikanisches und Antimonarchistisches Ideengut war in der Reichswehr während und vor des Krieges stark unterdrückt und verpönt. Mit dem Ende des Krieges wurde dies zwar besser und offiziell aufgehoben, sodass republikanische Offiziere Karriere machen konnten, welche jedoch nach dem Kapp-Putscch entweder zurücktraten oder entlassen wurden. Während ihre wichtigste Persönlichkeit Reinhardt ist, sind es zumeist niedrigrangige Soldaten die republikanisch ausgerichtet sind.
 
 @neorevisionists
 go-to: menu
@@ -440,7 +433,7 @@ if (d3 && window) {
 }
 !}
 
-= Reichstag composition
+= Reichstag Zusammensetzung 
 
 {!<svg id="reichstag" style="width: 500px; height: 250px;"> </svg>!}
 
@@ -468,17 +461,11 @@ if (d3 && window) {
 {!<tr><td><div class="box" style='background-color:#954B00'> </div></td><td>!} NSDAP: {!</td><td>!} [+ nsdap_r +]% {!</td></tr>!}
 {!</table>!}
 
-= Election history
+= Wahl-Historie 
 
 [? if year = 1928 and month < 5 : No new elections yet. ?]
 
 {!<svg id="election_history" style="width: 500px; height: 400px;"> </svg>!}
-
-= Party support history
-
-[? if historical_mode: Not available in historical mode. ?]
-
-{!<svg id="party_support_history" style="width: 500px; height: 400px;"> </svg>!}
 
 = Economic history
 
