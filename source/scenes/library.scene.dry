@@ -221,25 +221,25 @@ Stärke: [+ rb_strength +] tausend
 
 Militarisierung: [+ rb_militancy : militancy +]
 
-**Div. Kommunistische Paramiltäre, wie: der Roter Soldatenbund (RSB), die Rote Ruhrarmee, die Proletarischen Hundertschaften, der Rotfrontkämpferbund (RFB), usw.**: Diese Comunist Groups are associated with the KPD-SB and were born out of the German Revolution, opposing both the Kaiserreich and the newly formed Bourgeois Republic.
+**Div. Kommunistische Paramiltäre, wie: der Roter Soldatenbund (RSB), die Rote Ruhrarmee, die Proletarischen Hundertschaften, der Rotfrontkämpferbund (RFB), usw.**: Diese Kommunistischen Gruppen sind mit der KPD-SB assoziiert und wurden zumeist aus der November Revolution geboren. Sie stehen in Opposition zum Kaiserreich und der neu geformmten Bourgeoisen Republik.
 
 Stärke: [+ rfb_strength +] tausend
 
 Militarisierung: [+ rfb_militancy : militancy +]
 
-**Der Stahlhelm**: A right-wing nationalist organization of primarily Great War veterans, founded on the 25. December 1918, descended from the *Freikorps* that emerged after the war. Lead by a "Führer" it is associated with the DNVP.
+**Der Stahlhelm - Bund der Frontsoldaten**: Eine rechte, nationalistische Organisation die primär aus Veteranen des Großen Krieges besteht. Sie wurde am 25. Dezember 1918 gegründet und ist inoffizieller Nachfolger der *Freikorps*. Der Stahlhelm wird von einem "Bundesführer" angeführt und ist mit der DNVP assoziiert.
 
 Stärke: [+ sh_strength +] tausend
 
 Militarisierung: [+ sh_militancy : militancy +]
 
-**Sturmabteilung (SA)**: The nazi paramilitary group. Founded in November of 1920 as the sports- and gymnastics-section of the DAP, it was only renamed to it's, now well known name, on the 5. of October 1921. It consists of Völkisch Freikorps and Reichswehr soldiers.
+**Sturmabteilung (SA)**: Das Nazi Paramilitär. Im November 1920 als Sport- und Gymnastiksektion der DAP gegründet, wurde es zu seinem, heute berüchtigten, Namen am 5. Oktober 1921 umbenannt. Es besteht aus Völkischen Freikorps und Reichswehrsoldaten.
 
 Stärke: [+ sa_strength +] tausend
 
 Militarisierung: [+ sa_militancy : militancy +] 
 
-**Freikorps**: Scattered groups of primarily demobilised soldiers and young nationalists. They vary strongly in their political Opinions, ranging from the national liberal "Offiziers-Kompanie-Cassel" (later Jungdeutscher Orden), lead by Arthur Mahraun, to the völkisch nationalist Freikorps Oberland, who supported the Beer Hall Putsch and later merged into the SA.
+**Freikorps**: Verstreute Gruppen die primär aus demobilisierten Veteranen und jungen Nationalisten bestehen. Sie variieren stark in ihren politischen Meinungen, von der nationalliberalen "Offiziers-Kompanie-Cassel" (später Jungdeutscher Orden), angeführt von Arthur Mahraun, bis zu den Völkisch-Nationalistischen Freikorps Oberland, die später den Bierhallenputsch unterstützen und in die SA integriert wurden.
 
 Stärke: [+ fk_strength +] tausend
 
@@ -247,11 +247,11 @@ Militarisierung: [+ fk_militancy : militancy +]
 
 **Official military/paramilitary groups:**
 
-**Reichswehr**: [+ reichswehr_strength +] tausend troops. This is the military of the German Reich. As *Chef des Truppenamtes*, it is your task to rebuild and restructure it after the devastating losses of the Great War.
+**Reichswehr**: [+ reichswehr_strength +] tausend Mann. Dies ist das Militär des Deutschen Reichs. Als *Chef des Truppenamtes*, ist es deine Aufgabe die nach den Verlusten des Großen Krieges zerstörte Truppe wieder aufzubauen und zu restrukturieren.
 
 Loyalität: [+ reichswehr_loyalty : loyalty +]
 
-**Preußische Polizei**: [+ prussian_police_strength +] tausend members.
+**Preußische Polizei**: [+ prussian_police_strength +] tausend Mitglieder.
 
 Loyalität: [+ prussian_police_loyalty : loyalty +]
 
@@ -265,9 +265,9 @@ go-to: neorevisionists if neorevisionism > 0; menu if neorevisionism <= 0
 Overall dissent: [+ dissent_percent : dissent +]
 
 # ludendorffist-left, conservatives-center, reformers-reformists, pragmatist-labor
-**Ludendorffists**
+**Ludendorffisten**
 
-The Ludendorffists, centered around General Ludendorff and his ideas are strongly opposed to the reforms anticipated by the reformers around Seeckt and Groener, while supporting their own reform agenda, aiming to transform the army into a "Volksarmee" incooperating all germans eligible for service. They are strongly national revanchist, believing in a racial war to "clean" the european continent and assert German dominance over it's neighbours.
+Die Ludendorffisten, centered around General Ludendorff and his ideas are strongly opposed to the reforms anticipated by the reformers around Seeckt and Groener, while supporting their own reform agenda, aiming to transform the army into a "Volksarmee" incooperating all germans eligible for service. They are strongly national revanchist, believing in a racial war to "clean" the european continent and assert German dominance over it's neighbours.
 
 Strength: [+ left_strength : strength +]
 
