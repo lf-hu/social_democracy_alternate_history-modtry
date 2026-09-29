@@ -1,5 +1,5 @@
-title: Freikorps are strengthening
-subtitle: Freikorps are gaining Strength and Manpower
+title: Freikorps gewinnen Einfluss
+subtitle: Die Veteranenorganisationen werden 
 view-if: (fk_strength >= 300 and fk_militancy >= 0.4)
 new-page: true
 max-visits: 1
