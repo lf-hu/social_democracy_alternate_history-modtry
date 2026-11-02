@@ -254,7 +254,9 @@ Loyalität: [+ prussian_police_loyalty : loyalty +]
 @factions
 go-to: neorevisionists if neorevisionism > 0; menu if neorevisionism <= 0
 
-**Internal factions of the Reichswehr**
+**Interne Fraktionen der Reichswehr**
+
+(Dies ist ein eine von vielen Darstellungen und als solche vereinfacht)
 
 Allgemeine Unzufriedenheit: [+ dissent_percent : dissent +]
 
@@ -286,6 +288,7 @@ Unzufriedenheit: [+ labor_dissent : dissent +]
 **Reformer**
 
 Reformer, Rund um Seeckt und Groener, sind in den meisten Fällen der Republik gegenüber oppositionell eingestellt, aber pragmatisch was Kooperation mit dieser angeht. Sie stehen jedoch voll hinter Seeckt und seinen Ambitionen die Reichswehr in eine politisch unabhängige und professionelle Armee zu reformieren. In ihrer Doktrin operieren sie im Geist von Mackensen's Blitzkrieg und Moltke's Auftragstaktik, während sie bereit sind politische Grenzen zu achten.
+
 Stärke: [+ reformist_strength : strength +]
 
 Unzufriedenheit: [+ reformist_dissent : dissent +]
