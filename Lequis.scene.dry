@@ -1,6 +1,6 @@
-title: Suspension of the Austrian parliament
+title: Ein folgenreiches Treffen
 new-page: true
-subtitle: Our southern neighbor is sliding into dictatorship.
+subtitle: Lequis und Seeckts Rede
 view-if: year = 1918 and month = 11
 max-visits: 1
 on-arrival: lequois_seen = 1
@@ -22,7 +22,6 @@ Berlin, November 1918, die Stimmung ist schlecht im Gebäude des großen General
 - @end-1: Ist es das wirklich noch wert? Ein Reich ohne Kaiser…
 
 @continue
-
 
 Seeckts Worte haben einen erstaunlichen Einfluss auf die Anwesenden, schon immer war er ein guter Redner und dies zeigt sich nun erneut. Zusammen mit Lequis bringt er die versammelten Offiziere davon ab, ihren Dienst aufzugeben und als sie am Abend nach Hause zurückkehren, scheint es, als sei noch nicht alles verloren.
 
