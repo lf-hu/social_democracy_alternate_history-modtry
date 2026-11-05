@@ -1,14 +1,13 @@
 title: Civil War
 audio: music/communist/A_las_barricadas.ogg
-on-arrival: {!
 
-Am Abend wird klar: trotz Seeckts oratorischen Leistungen ist die Mehrheit der Ostparlamentarier nicht überzeugt. Der Entschluss ist dennoch bereits gefallen. Am Abend spricht Kriegsminister Reinhardt mit der Regierung, Noske ist überzeugt, der Rest der Regierung weniger. Es kommt wie von einigen vermutet: die Reichswehr und das Reichswehrministerium lehnen die Forderungen ab.  Sie erwarten einen Bluff der Alliierten, machen sich aber dennoch zum Kampf bereit. 
-Währenddessen wartet die Regierung ab, weigert sich Farbe zu bekennen, auch als die Alliierte Armee nur 2 Tage später tatsächlich den Rhein überquert. Sofort versinkt die Republik im Chaos, im Süden desertieren ganze Regimenter, unwillig einen weiteren Krieg für ihre Kommandanten auszufechten. Überraschenderweise sind es die Kommunisten, die zuerst Widerstand gegen die französischen Truppen leisten. In der Tat steht bald der gesamte Ruhr in offener Rebellion, nicht nur gegen die Franzosen, sondern auch gegen die nichtstuende Regierung, die nun, da ihr jedes Machtmittel entwendet, nach Frieden ruft und auf Verschonung hofft. 
+Am Abend wird klar: trotz Seeckts oratorischen Leistungen ist die Mehrheit der Ostparlamentarier nicht überzeugt. Der Entschluss ist dennoch bereits gefallen. Am Abend spricht Kriegsminister Reinhardt mit der Regierung, Noske ist überzeugt, der Rest der Regierung weniger. Es kommt wie von einigen vermutet: die Reichswehr und das Reichswehrministerium lehnen die Forderungen ab.  Sie erwarten einen Bluff der Alliierten, machen sich aber dennoch zum Kampf bereit.
+Währenddessen wartet die Regierung ab, weigert sich Farbe zu bekennen, auch als die Alliierte Armee nur 2 Tage später tatsächlich den Rhein überquert. Sofort versinkt die Republik im Chaos, im Süden desertieren ganze Regimenter, unwillig einen weiteren Krieg für ihre Kommandanten auszufechten. Überraschenderweise sind es die Kommunisten, die zuerst Widerstand gegen die französischen Truppen leisten. In der Tat steht bald der gesamte Ruhr in offener Rebellion, nicht nur gegen die Franzosen, sondern auch gegen die nichtstuende Regierung, die nun, da ihr jedes Machtmittel entwendet, nach Frieden ruft und auf Verschonung hofft.
 
 
 @war_menu
-_____
-- @restprussia?: Und was ist mit dem Rest Preußens?
+
+- @restprussia: Und was ist mit dem Rest Preußens?
 
 @restprussia
 max-visits: 1
@@ -19,7 +18,7 @@ We have urged the Reichswehr to stand down, to avoid killing their countrymen. [
 
 @kpd_help
 max-visits: 1
-view-if: chancellor_party != "KPD" and president != "Thälmann" 
+view-if: chancellor_party != "KPD" and president != "Thälmann"
 go-to: war_menu
 on-arrival: war_choices += 1
 
@@ -49,7 +48,7 @@ Since we still control the Prussian government, we can call upon the Prussian po
 @foreign_intervention
 max-visits: 1
 go-to: war_menu
-on-arrival: war_choices += 1; 
+on-arrival: war_choices += 1;
 
 # note: the Prussian coup should not trigger foreign intervention...
 
