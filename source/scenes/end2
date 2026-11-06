@@ -8,6 +8,21 @@ Q.game_over = 1;}
 
 Am Abend wird klar: trotz Seeckts oratorischen Leistungen ist die Mehrheit der Ostparlamentarier nicht überzeugt. Der Entschluss ist dennoch bereits gefallen. Am Abend spricht Kriegsminister Reinhardt mit der Regierung, Noske ist überzeugt, der Rest der Regierung weniger. Es kommt wie von einigen vermutet: die Reichswehr und das Reichswehrministerium lehnen die Forderungen ab.  Sie erwarten einen Bluff der Alliierten, machen sich aber dennoch zum Kampf bereit. Währenddessen wartet die Regierung ab, weigert sich Farbe zu bekennen, auch als die Alliierte Armee nur 2 Tage später tatsächlich den Rhein überquert. Sofort versinkt die Republik im Chaos, im Süden desertieren ganze Regimenter, unwillig einen weiteren Krieg für ihre Kommandanten auszufechten. Überraschenderweise sind es die Kommunisten, die zuerst Widerstand gegen die französischen Truppen leisten. In der Tat steht bald der gesamte Ruhr in offener Rebellion, nicht nur gegen die Franzosen, sondern auch gegen die nichtstuende Regierung, die nun, da ihr jedes Machtmittel entwendet, nach Frieden ruft und auf Verschonung hofft. 
 
-- @
+- @prussiafight: Und was ist mit dem Rest Preußens?
 
-game
+Während der Ruhr sich vom Reich abgrenzt, scheinen Westpreußen, Sachsen, Thüringen und die verschiedenen kleineren Staaten unschlüssig zu sein. Viele folgen den letzten Anweisungen der Regierung und legen ihre Waffen nieder, andere entscheiden sich für die Reichswehr und leisten ihren letzten Widerstand. Unmittelbar brechen auch überall in Preußen, Sachsen und Thüringen kommunistische Aufstände aus, mal gegen die Reichswehr, mal mit ihr, gegen die Alliierten kämpfend.
+
+- @westfight: Das Schicksal des Westens…
+
+Die großen Kämpfe des Westens dauern nur wenige Tage, dann zieht der Alliierte Sieger in Berlin ein. Die westliche Reichswehr ist zerschlagen, die Kommunisten haben sich zum Großteil in den Untergrund zurückgezogen. Es scheint, die Alliierten hätten endlich gewonnen…
+
+- @eastfight: Das Schicksal des Ostens…
+
+Östlich von Berlin ist man besser vorbereitet: wenn auch schlecht bewaffnet, stellt sich schließlich eine fast Million starke Armee, bestehend aus Reichswehr, Zivilisten und Freikorps, den Polen entgegen, als diese gleichzeitig mit den Franzosen die Grenze überqueren.
+
+- @fightclueless: Sicherlich haben wir sie gestoppt…?
+
+
+
+@end_game
+game-over: true
