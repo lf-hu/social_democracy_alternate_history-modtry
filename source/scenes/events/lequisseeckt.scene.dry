@@ -1,7 +1,7 @@
 title: Ein folgenreiches Treffen
 new-page: true
 subtitle: Lequis und Seeckts Rede
-view-if: year = 1918 and month = 11
+view-if: year = 1918 and month = 5
 max-visits: 1
 on-arrival: lequois_seen = 1
 face-image: img/Dollfuss.jpg
