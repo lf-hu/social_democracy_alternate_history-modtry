@@ -19,11 +19,10 @@ Berlin, November 1918, die Stimmung ist schlecht im Gebäude des großen General
 # after this, supporting Austrians will raise sdapo_strength; if sdapo_strength >= 2, they'll enter a long civil war; if sdapo_strength >= 5, they'll win.
 
 - @continue: Man muss sich für die Instandhaltung des Armeekorps einsetzen! Nur so kann das Reich stabilisiert werden!
-- @end-1: Ist es das wirklich noch wert? Ein Reich ohne Kaiser…
+- @end1: Ist es das wirklich noch wert? Ein Reich ohne Kaiser…
 
 @continue
 
 Seeckts Worte haben einen erstaunlichen Einfluss auf die Anwesenden, schon immer war er ein guter Redner und dies zeigt sich nun erneut. Zusammen mit Lequis bringt er die versammelten Offiziere davon ab, ihren Dienst aufzugeben und als sie am Abend nach Hause zurückkehren, scheint es, als sei noch nicht alles verloren.
 
-@end-1
 
