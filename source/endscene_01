@@ -4,4 +4,7 @@ go-to: eg_menu
 on-arrival: {!
 Q.game_over = 1;}
 
+= Exil in England
 Lequis versucht sein Bestes, die Offiziere zu überzeugen, jedoch scheint seinen Argumenten die Schlagkraft genommen zu sein.  Bis Ende des Monats beendet der Großteil der anwesenden Offiziere ihren Dienst. Die Folgen sind unmittelbar: ohne Führung kann die Armee die Regierung nicht stützen, die O.H.L. kollabiert und die Soldaten radikalisieren sich nach links und rechts. Was folgt, ist ein langwieriger Bürgerkrieg zwischen Spartakisten, Republikanern und Monarchisten, nach dessen Ende Deutschland dennoch für viele Jahre gespalten bleibt. Johannes Friedrich Leopold von Seeckt folgt vielen seiner Kameraden in den Ruhestand, verlässt schweren Herzens das von Krieg geplagte Deutschland und zieht mit seiner Frau in den Süden, wo er den Rest seines Lebens verbringt. Dennoch lässt ihn dieser verhängnisvolle Abend im Gebäude des Generalstabs nie wieder los, denn er fühlt, so hat er das Deutsche Reich verraten…
+@end_game
+game-over: true
