@@ -1,6 +1,6 @@
 title: Kontakte suchen
 new-page: true
-view-if: koenigsberg_contacts_timer <= 0 and year <= 1918 or year = 1919 and month <= 9
+view-if: koenigsberg_contacts_timer <= 0 and year <= 1918 
 tags: party_affairs
 is-card: true
 on-arrival: month_actions += 1; koenigsberg_contacts_timer = 2;
