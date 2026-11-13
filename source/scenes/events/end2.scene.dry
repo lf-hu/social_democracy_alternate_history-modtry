@@ -40,7 +40,7 @@ Seeckt persönlich führt die neugebildete 10. Armee an, welche auch tatsächlic
 
 
 @fightnotsoclueless
-view-if: if east >= 2 : 
+view-if: east >= 2 : 
 title: Ein langer nutzloser Kampf...
 tags:endings
 go-to: eg_menu
