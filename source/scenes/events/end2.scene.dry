@@ -32,6 +32,11 @@ Die großen Kämpfe des Westens dauern nur wenige Tage, dann zieht der Alliierte
 
 @fightclueless
 
+[? if east =< 1 : Seeckt persönlich führt die neugebildete 10. Armee an, welche auch tatsächlich den ersten Angriff der Polen unter starken Verlusten zurückschlägt und daraufhin zur Gegenoffensive ansetzt. Es fehlt ihnen zum Großteil zwar an Ausrüstung, jedoch sind sie numerisch immer noch knapp in der Überzahl und machen in der ersten Woche des Krieges leichte, durch Stellungskrieg getragene Gewinne. Ende der zweiten Woche kommt die Front kurz vor Lodz ins Stocken. Kurz nachdem ihn eine Nachricht über den Fall Berlins unterrichtet, entscheidet sich Seeckt, nach einer weiteren Woche zermürbenden Kampfes, zu einem letzten, dem Blitzkrieg folgenden Angriff. Dieser macht auch tatsächlich Fortschritte, doch es wird schnell klar: es fehlt an Ausrüstung und Männern. Die Polen dagegen haben in den letzten Wochen aus dem Umland an Männern gewonnen. So scheitert diese letzte Offensive und General von Seeckt wird schließlich von einem polnischen Erschießungskommando hingerichtet. Mehrere zehntausend Menschen sterben in diesem kurzen, aber blutigen Krieg.
+
+- @end_game: Spiel beenden. ?]
+
+
 [? if east >= 2 : Seeckt persönlich führt die neugebildete 10. Armee an, welche auch tatsächlich den ersten Angriff der Polen zurückschlägt und daraufhin zur Gegenoffensive ansetzt. Es fehlt ihnen zum Großteil zwar an Ausrüstung, jedoch sind sie numerisch in der Überzahl und machen in der ersten Woche des Krieges leichte Gewinne, bis Anfang der zweiten Woche die Front kurz vor Lodz ins Stocken kommt. Inzwischen erreicht Seeckt die Nachricht von der Befreiung Danzigs im Norden. Am darauffolgenden Tag durchbricht die 10. Armee die Linien des Gegners.  Der überraschende Vorstoß zerstört die polnische Verteidigung und zerschlägt erfolgreich ihre Logistik. Die Schlacht wird zu einem entscheidenden Sieg im Krieg gegen Polen und zu einem weiteren Sieg der Blitzkriegstrategie Seeckts . Sofort rückt die 10. Armee weiter vor. Die polnischen Kräfte sind jetzt zum Großteil zerschlagen und der Kurs gerichtet gen Warschau, doch bald erreicht sie die Hiobsbotschaft: Berlin ist in den Händen des Feindes.?]
 
 - @auraend: Was nun? 
