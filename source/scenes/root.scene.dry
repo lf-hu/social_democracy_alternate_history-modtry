@@ -115,6 +115,7 @@ Q.NSDAP_relation = 5;
 Q.dvfp_relation = 20;
 Q.spd_relation = 40;
 Q.industrials_relation = 50;
+Q.uspd_relation = 40;
 
 Q.kpd_leader = "Luxemburg";
 // alternative is the Conciliators as party leader
@@ -162,6 +163,12 @@ Q.fk_militancy = 0.4;
 Q.fk_banned = 0;
 Q.fk_banned_prussia = 0;
 Q.fk_banned_silesia = 0;
+Q.winnig = 0;
+Q.rathenau = 0;
+Q.health = 0;
+Q.seeckt_right = 0;
+Q.seeckt_left = 0;
+Q.cabinet_popularity = 0;
 
 Q.interior_police_strength = 50;
 Q.interior_police_militancy = 1;
