@@ -1,0 +1,41 @@
+title: Kontakte suchen
+new-page: true
+view-if: koenigsber_contacts_timer <= 0 and year <= 1919 and month <= 9
+tags: party_affairs
+is-card: true
+on-arrival: month_actions += 1; koenigsberg_contacts_timer = 2;
+card-image: img/weimar_coalition_2.jpg
+max-visits: 8
+#subtitle: Building relations with political and non-political personalities of Germany.
+
+= Kontakte von Königsberg aus pflegen
+
+Seeckt ist ein viel vernetzter Mann, auch von Königsberg aus müssen Korrespondenzen gepflegt und persönliche Gespräche geführt werden.
+
+- @winnig: Nur mit Unterstützung des Reichskommissars kann ich vernünftig agieren, ich werde ihn einladen.
+- @oberpraesident: Der Oberpräsident ist zwar selten einer Meinung mit mir, aber er hat eine gewisse Popularität innerhalb der DNVP.
+- @localarmy: Die lokalen Garnisonen brauchen meine Aufmerksamkeit am meisten.
+- @heimreich: Es müssen Briefe Heim ins Reich geschrieben werden, auch von hier muss ich vernetzt bleiben.
+
+@winnig
+on-arrival: winnig = 1; soviet_relations += 1
+Der Reichskommissar scheint ein vernünftiger Mann zu sein, wenn auch etwas zu bolschewistisch geprägt… Ich tausche mich mit ihm über weltpolitisches und militärisches Geschehen aus.
+
+@oberpraesident
+on-arrival: dnvp_relations += 2
+Einmal näher kennengelernt ist von Batocki gar nicht so übel. Trotz unserer vielen Meinungsverschiedenheiten wird die Konversation wenigstens halbwegs angenehm.
+
+@localarmy
+on-arrival: reichswehr_loyality += 0.2
+Es ist nicht üblich für so wichtige Generäle, sich auf den Boden der Tatsachen herabzulassen und sich mit den gewöhnlichen Soldaten auszutauschen, man spürt, der Respekt für mich steigt
+
+@heimreich
+go-to: rathenau_versoehn if year = 1918 and month <= 8; reicheim if if year >= 1918 and month >= 8
+
+@rathenau_versoehn
+on-arrival: rathenau = 1; seeckt_left += 1; ddp_relations += 4
+Endlich, eine Aussprache mit Rathenau! Über so kleine Probleme hätte man nie so viel Zeit verschwenden dürfen, am Ende ziehen wir doch alle am gleichen Strang!
+
+@reichheim
+on-arrival: reichswehr_loyality += 0.1; cabinet_popularity += 1
+Kommunikation zurück ins Reich ist auch jetzt noch wichtig, um mit der Heeresleitung und der Regierung in Verbindung zu bleiben… Und Frau von Seeckt kann sich auch über Post freuen…
