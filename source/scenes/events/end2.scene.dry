@@ -29,7 +29,7 @@ Die großen Kämpfe des Westens dauern nur wenige Tage, dann zieht der Alliierte
 Östlich von Berlin ist man besser vorbereitet: wenn auch schlecht bewaffnet, stellt sich schließlich eine fast Million starke Armee, bestehend aus Reichswehr, Zivilisten und Freikorps, den Polen entgegen, als diese gleichzeitig mit den Franzosen die Grenze überqueren.
 
 @fightclueless
-view-if: east <= 1
+view-if: (east <= 1)
 title: Ein nutzloser Kampf...
 tags: endings
 go-to: eg_menu
@@ -40,7 +40,7 @@ Seeckt persönlich führt die neugebildete 10. Armee an, welche auch tatsächlic
 
 
 @fightnotsoclueless
-view-if: east >= 2 
+view-if: (east >= 2) 
 title: Ein langer nutzloser Kampf...
 tags:endings
 go-to: eg_menu
