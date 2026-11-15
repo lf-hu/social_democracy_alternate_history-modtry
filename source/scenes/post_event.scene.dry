@@ -82,7 +82,7 @@ if (Q.risk >= 3) {
 }
 
 if (ultimatum_chance <= 20) {
-    go-to: @end2
+    go-to @end2
 }
 
 // re-calculate dissent.
