@@ -81,7 +81,7 @@ if (Q.risk >= 3) {
     Q.ultimatum_chance = Math.floor(Math.random() * 100) + 1
 }
 
-if (ultimatum_chance <= 20) {
+if (Q.ultimatum_chance <= 20) {
     go-to @end2
 }
 
