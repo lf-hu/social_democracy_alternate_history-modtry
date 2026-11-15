@@ -15,6 +15,6 @@ In den vergangenen Wochen hat sich Seeckt etwas unwohl gefühlt, es ist sicherli
 @doctoryes
 on-arrival: doctor = 1
 
-[? if year <= 1919: Es scheint dies war die richtige Entscheidung, denn es stellt sich heraus das eine Darmoperation notwendig ist. Nach 2 Wochen Ruhe sollte Ich wieder auf den Beinen sein. ?]
+[? if year <= 1919: Es scheint dies war die richtige Entscheidung, denn es stellt sich heraus das eine Darmoperation notwendig ist. Nach 2 Wochen Ruhe sollte ich wieder auf den Beinen sein. ?]
 
 [? if year >= 1920: Es wahr wohl nichts, meine Darmoperation hat wohl Gesundheitliche Probleme geklärt. ?]
