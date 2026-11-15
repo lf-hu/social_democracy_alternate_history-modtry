@@ -1,0 +1,33 @@
+title: Eine diplomatische Krise
+subtitle: Unsere Remilitarisierung ist nicht unbemerkt geblieben...
+view-if: ultimatum_chance <= 20
+new-page: true
+max-visits: 1
+tags: event
+
+= Ein Ultimatum der Entente
+
+Die Alliierten haben der deutschen Regierung ein Ultimatum gestellt: Die Reichswehr sei zur vollen Inspektion freizugeben. Die Regierung hat sich natürlich zunächst geweigert und eine Konferenz in Kent wurde angesetzt, um darüber zu verhandeln. Der Reichskanzler fragt Seeckt, ob er sich der Deutschen Delegation anschließen willst.
+
+- @kentyes: Ja. Wie Versailles so auch Kent.
+- @kentno: Nein. Diese Schande erspare ich mir.
+
+@kentyes
+
+Bei der Konferenz erscheinen die Entente-Mächte bestimmt: Die Reichswehr soll einer kompletten Untersuchung unterzogen werden. Die Regierung steht unter enormem Druck.
+
+- @ultnegotiate: Dies ist inakzeptabel! Es muss einen Weg geben dies diplomatisch zu lösen.
+
+- @ultaccept: Wir haben keine Wahl… Dies ist der einzige Weg diese Situation friedlich zu lösen.
+
+@ultnegotiate: 
+
+wait
+
+@ultaccept: 
+
+go-to: end3
+  
+@kentno
+
+go-to: end3
