@@ -16,8 +16,8 @@ Die Allierten Mächte haben der deutschen Regierung ein Ultimatum gestellt: Die 
 
 Bei der Konferenz treten die Entente-Mächte bestimmt auf: Die Reichswehr soll einer kompletten Untersuchung unterzogen werden. Die Regierung steht unter enormem Druck.
 
-- @ultnegotiate: Dies ist inakzeptabel! Es muss einen Weg geben dies diplomatisch zu lösen.
-- @ultaccept: Wir haben keine Wahl… Dies ist der einzige Weg diese Situation friedlich zu lösen.
+- @ultnegotiate: Dies ist inakzeptabel! Es muss einen Weg geben dies diplomatisch zu loesen.
+- @ultaccept: Wir haben keine Wahl… Dies ist der einzige Weg diese Situation friedlich zu loesen.
 
 @ultnegotiate: 
 choose-if: west_relation >= 5 and west_ultimatum <= 0
