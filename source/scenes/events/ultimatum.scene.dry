@@ -7,24 +7,26 @@ tags: event
 
 = Ein Ultimatum der Entente
 
-Die Alliierten haben der deutschen Regierung ein Ultimatum gestellt: Die Reichswehr sei zur vollen Inspektion freizugeben. Die Regierung hat sich natürlich zunächst geweigert und eine Konferenz in Kent wurde angesetzt, um darüber zu verhandeln. Der Reichskanzler fragt Seeckt, ob er sich der Deutschen Delegation anschließen willst.
+Die Allierten Mächte haben der deutschen Regierung ein Ultimatum gestellt: Die Reichswehr sei zur vollen Inspektion freizugeben.[? if west_ultimatum == 1: Eine neuerliche Konferenz wurde angesetzt. Sie findet in Paris statt und es ist nicht davon auszugehen das die Entente-Mächte diesmal  mit sich reden lassen werden. ?] [? if west_ultimatum == 0: Natürlich hat sich die Regierung zunächst geweigert und eine Konferenz in Kent wurde angesetzt, um darüber zu verhandeln. Der Reichskanzler fragt Seeckt, ob er sich der Deutschen Delegation anschließen willst. ?]
+
+- @kentyes: Ja. Wie Versailles so auch Kent.?]Konferenz in Kent wurde angesetzt, um darüber zu verhandeln. Der Reichskanzler fragt Seeckt, ob er sich der Deutschen Delegation anschließen willst.
 
 - @kentyes: Ja. Wie Versailles so auch Kent.
 - @kentno: Nein. Diese Schande erspare ich mir.
 
 @kentyes
 
-Bei der Konferenz erscheinen die Entente-Mächte bestimmt: Die Reichswehr soll einer kompletten Untersuchung unterzogen werden. Die Regierung steht unter enormem Druck.
+Bei der Konferenz treten die Entente-Mächte bestimmt auf: Die Reichswehr soll einer kompletten Untersuchung unterzogen werden. Die Regierung steht unter enormem Druck.
 
 - @ultnegotiate: Dies ist inakzeptabel! Es muss einen Weg geben dies diplomatisch zu lösen.
 - @ultaccept: Wir haben keine Wahl… Dies ist der einzige Weg diese Situation friedlich zu lösen.
 
 @ultnegotiate: 
-choose-if: west_relation >= 4
+choose-if: west_relation >= 5 and west_ultimatum <= 0
 unavailable-subtitle: Es scheint die Alliierten sind nicht dazu zu bringen von ihren Forderungen abzusehen.
 on-arrival: west_relation -= 2; west_ultimatum = 1; rearmament_exposed -= 2
 
-Nach einer Kombination von erneuten Versicherungen und 
+Nach einer Kombination von erneuten Versicherungen und unterschwelligen Drohungen zeigen sich die Alliierten beschwichtigt, sie wissen zwar das wir eine gewisse Menge an Remilitarisierung tätigen, werden diesem Prozess aber weiterhin ein 
 
 @ultaccept: 
 
