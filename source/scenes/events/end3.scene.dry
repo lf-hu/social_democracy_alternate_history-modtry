@@ -4,6 +4,8 @@ go-to: eg_menu
 on-arrival: {!
 Q.game_over = 1; !}
 
+@eg_menu
+
 = Abschied
 
 Der Ausgang war vorherbestimmt, die Regierung ist unter dem Druck der Alliierten eingebrochen und hat sich bereit erklärt, eine vollständige Untersuchung über sich ergehen zu lassen. Es ist ein Affront nicht nur gegen Seeckt und die Reichswehr, sondern auch gegen das ganze Reich. Als Reaktion gehen überall nationale und sogar kommunistische Kräfte auf die Straße, doch sie können nichts an dem Endresultat ändern.
@@ -15,3 +17,6 @@ Am Abend der Rückkehr der Delegation besucht mich Gessler, in den letzten Woche
 @retireunc
 
 Seeckt verbringt den Rest seines Lebens in Deutschland, seine Reputation stark geschädigt durch die letzte Woche seiner Amtszeit. Spät in seinem Leben schreibt er seine Memoiren nieder, findet aber bis zu seinem Tot keinen Veröfentlicher. Die Regierung welche die Untersuchung über sich ergehen lassen musste fällt binnen weniger Monate und die Bevölkerung wird weiter radikalisiert. Es sind perfekte Ausgangsbedingungen für eine autoritäre und völkische Partei wie die DFVP oder eine ähnliche...
+
+@end_game
+game-over: true
