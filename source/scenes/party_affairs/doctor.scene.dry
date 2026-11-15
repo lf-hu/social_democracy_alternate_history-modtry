@@ -9,10 +9,10 @@ tags: party_affairs
 
 In den vergangenen Wochen hat sich Seeckt etwas unwohl gefühlt, es ist sicherlich nichts wichtiges, womöglich sollte er aber dennoch einen Arzt aufsuchen.
 
-- @doctor: Nun... Dann gehe Ich wohl zum Arzt.
+- @doctoryes: Nun... Dann gehe Ich wohl zum Arzt.
 - @easy_discard: Meine Arbeit ist zu wichtig, Ich habe keine Zeit. 
 
-@doctor
+@doctoryes
 on-arrival: doctor = 1
 [? if year <= 1919: Es scheint dies war die richtige Entscheidung, denn es stellt sich heraus das eine Darmoperation notwendig ist. Nach 2 Wochen Ruhe sollte Ich wieder auf den Beinen sein. ?]
 [? if year >= 1920: Es wahr wohl nichts, meine Darmoperation hat wohl Gesundheitliche Probleme geklärt. ?]
