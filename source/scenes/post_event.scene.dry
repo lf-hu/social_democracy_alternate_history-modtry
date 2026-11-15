@@ -4,6 +4,16 @@ on-arrival: {!
 Q.last_advisor_action = 0;
 Q.last_cabinet_action = 0;
 // make sure no stat is below 0.
+Q.risk = Q.rearmament_exposed - Q.west_relation/2
+
+if (Q.risk >= 3) {
+    Q.ultimatum_chance = Math.floor(Math.random() * 100) + 1
+}
+
+if ultimatum_chance <= 20: go-to @end2
+
+
+
 for (var c of Q.classes) {
     for (var party of Q.parties) {
         if (Q[c+'_'+party] < 0) {
@@ -73,16 +83,6 @@ for (var c of Q.factions) {
 
 if (Q.unemployed <= 1) {
     Q.unemployed = 1;
-}
-
-Q.risk = Q.rearmament_exposed - Q.west_relation/2
-
-if (Q.risk >= 3) {
-    Q.ultimatum_chance = Math.floor(Math.random() * 100) + 1
-}
-
-if (Q.ultimatum_chance <= 20) {
-    go-to @end2
 }
 
 // re-calculate dissent.
