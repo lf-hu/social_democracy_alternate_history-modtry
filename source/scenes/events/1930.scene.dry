@@ -4,7 +4,6 @@ new-page: true
 tags: event
 view-if: year = 1919 and month = 1
 priority: 2
-max-visit: 1
 
 Das Jahr 1919 ist noch jung als am 12. Januar Major von Stülpnagel, Chef der Operationsabteilung der Obersten Heeresleitung, an Seeckts Tür klopft. Einmal eingetreten, eröffnet Stülpnagel, dass er im Auftrag von Groener und Hindenburg die neu gegründete Verbindungsstelle Ost der O.H.L. in Königsberg an Seeckt übergeben soll, falls dieser bereit sei. Dieser Stelle fällt die wichtige Aufgabe der Sicherung der Ostprovinzen gegen etwaige Bedrohungen aus Tschechien oder Polen zu, sowie die Rückführung der Heeresgruppe 10.
 
