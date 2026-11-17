@@ -1,8 +1,27 @@
 title: Ein Besuch der OHL
-subtitle: Major Stülpnabel besucht Seeckt,
+subtitle: Major Stülpnabel besucht Seeckt
+new-page: true
 tags: event
 view-if: year = 1919 and month = 1
 priority: 2
 max-visit: 1
 
 Das Jahr 1919 ist noch jung als am 12. Januar Major von Stülpnagel, Chef der Operationsabteilung der Obersten Heeresleitung, an Seeckts Tür klopft. Einmal eingetreten, eröffnet Stülpnagel, dass er im Auftrag von Groener und Hindenburg die neu gegründete Verbindungsstelle Ost der O.H.L. in Königsberg an Seeckt übergeben soll, falls dieser bereit sei. Dieser Stelle fällt die wichtige Aufgabe der Sicherung der Ostprovinzen gegen etwaige Bedrohungen aus Tschechien oder Polen zu, sowie die Rückführung der Heeresgruppe 10.
+
+- @accept: Wenn die O.H.L ruft, antwortet der Soldat! 
+- @decline: Vielleicht sollte man noch ein wenig auf eine angenehmere Stelle warten…
+
+@accept
+
+Der erste Monat in Königsberg. Zunächst nimmt Seeckt direkte Verbindung mit Oberpräsident von Batocki auf. Vergebliche Mühe: Seine Vorstellung eines unabhängigen Ostpreußen teilt er nicht. Am 19. Januar kommt die Nachricht: Seine Mutter ist am selben Tag in Goldberg, Schlesien, verstorben. An der Beerdigung teilnehmen kann er nicht, zu schlecht sind die Verbindungen, zu viel die Arbeit. In den darauffolgenden Tagen wird von Seeckt zum Generalstabschef des Grenzschutzes Nord ernannt. Langsam übernimmt er die Aufgaben der zerstreuten 10. Armee. Prioritäten sind: Beseitigung von Arbeiter- und Soldatenräten, Entwaffnung der Matrosen, Sicherung bereits vorhandener Waffenlager und Stärkung der Kommandogewalt Ostpreußens, falls eine Verteidigung notwendig sei.
+
+- @waitkoen: Nun warte Ich nur noch auf den zivilen Vertreter.
+
+@decline
+view-if: east >= 109
+
+Nah Bro, ganz sicher nicht, ab in den Gulag!
+
+@waitkoen
+
+Am 25. Januar trifft schließlich der zivile Reichskommissar und Sozialdemokrat Winnig ein. Alles ist bereit.
