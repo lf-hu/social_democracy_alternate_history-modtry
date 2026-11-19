@@ -1,5 +1,5 @@
-title: Freikorps gewinnen Einfluss
-subtitle: Die Veteranenorganisationen werden 
+title: Militärkonferenz
+subtitle: Der Friedensvertrag ist Gegenstand dieser Militärkonferenz...
 view-if: year = 1919 and month = 6
 new-page: true
 max-visits: 1
@@ -16,8 +16,12 @@ Versailles wird von den Alliierten nun durchgesetzt. Bei Nichtannahme wird der K
 
 In einer Besprechung mit Ost Parlamentariern, nur wenig später wird klar: das Parlament ist noch un-enthusiastischer als die Armee und Major von Stülpnagel vermerkt am gleichen Tag: “Seeckt und ich sind anwesend und treffen uns hinterher das der beabsichtigte und von mir so stark gewollte Kampf aussichtslos ist, wenn die Vertreter der zivilen Bevölkerung ihn so schroff ablehnen.”
 
-- @
+- @versaillesover: Und so werden die Friedensbedingungen angenommen…
+
+@versaillesover
+
+Am 27. Juni kommt im Hause Seeckt ein Schreiben an. Der Kriegsminister bittet Seeckt darum, von einem Abschied aus der Armee abzusehen. In dem Brief ist auch von der nun freien Position des Chefs des Generalstabs die Rede. Dies ist Seeckts Möglichkeit, die Organisation der Armee maßgeblich zu beeinflussen. Dabei wird er weiter den Osten sichern, während er den nun laut Versailles abzuschaffenden Generalstab neu organisiert. Vielleicht sollte er die Armee doch noch nicht verlassen...
 
 @versaillesdecline
 
-go-to: end1
+go-to: end2
