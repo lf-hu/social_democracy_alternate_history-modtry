@@ -19,18 +19,19 @@ Wir müssen festlegen, welche militärischen Tätigkeiten diesen Monat geplant w
 - @easy-discard: Ich habe wichtigeres zu tun
 
 @goltz
-show-if: month =< 10 and Goltz=0
+view-if: month =< 10 and goltz = 0
+
 
 - @goltzidiot: Diese Offensive ist planlos und nicht gewinnbar! Wir müssen ihn denunzieren, um die Alliierten nicht zu verärgern.
 - @goltzguud: Von Goltz zeigt noch echten Patriotismus, wir müssen ihn unbedingt unterstützen!
 
 @goltzidiot
-on-arrival: Allied_relations += 2, Goltz = 1, Ludendorffist_Dissent += 2
+on-arrival: west_relations += 2, goltz = 1, ludendorffist_Dissent += 2
 
 Natürlich Sir! Keine weiteren Fragen Sir!
 
 @goltzguud
-on-arrival: ludendorffist_strength += 4, ludendorffist_dissent -= 5, reformers_dissent += 4, west_relations -= 2 , soviet_relations -= 2, goltz = 1 Freikorps_militancy += 0.02, Freikorps_relations += 4
+on-arrival: ludendorffist_strength += 4, ludendorffist_dissent -= 5, reformers_dissent += 4, west_relations -= 2 , soviet_relations -= 2, goltz = 1 fk_militancy += 0.02, fk_relations += 4
 
 Natürlich Sir! Keine weiteren Fragen Sir!
   
@@ -45,6 +46,6 @@ on-arrival: influence += 1
 Natürlich Sir! Keine weiteren Fragen Sir!
 
 @grenzschutz
-on-arrival: ludendorffists_strength += 1 Freikorps_militancy += 0.05, Freikorps_relations += 4, East += 1
+on-arrival: ludendorffists_strength += 1 fk_militancy += 0.05, fk_relations += 4, east += 1
 
 Natürlich Sir! Keine weiteren Fragen Sir!
