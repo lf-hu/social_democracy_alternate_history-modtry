@@ -1,0 +1,16 @@
+title: Veteranenangelegenheiten
+new-page: true
+is-card: true
+tags: party_affairs
+view-if: veteran_timer = 0
+on-arrival: veteran_timer = 3
+card-image: img/arbeiterbew.jpg
+max-visits: 4
+#subtitle: Setting the party's ideological direction.
+
+= Veteranenangelegenheiten
+
+Wir müssen festlegen wie wir mit Veteranen des Großen Krieges und der noch kommenden Demobilisierung umgehen sollen
+
+- @nightwitches: Die Fliegerstaffel und ihre Piloten
+- @freikorpfrug: Die Frage der Freikorps.
