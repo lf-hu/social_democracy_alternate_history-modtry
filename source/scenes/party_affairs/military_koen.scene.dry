@@ -1,0 +1,50 @@
+title: Militärische Tätigkeiten
+new-page: true
+is-card: true
+tags: party_affairs
+view-if: koenigsberg_military_timer = 0
+on-arrival: koenigsberg_military_timer = 3
+card-image: img/arbeiterbew.jpg
+max-visits: 9
+#subtitle: Setting the party's ideological direction.
+
+= Militärische Tätigkeiten
+
+Wir müssen festlegen, welche militärischen Tätigkeiten diesen Monat geplant werden sollen.
+  
+- @goltz: Rüdiger von Goltz scheint einen Vorstoß in das Baltikum zu machen, womöglich sollten wir darauf reagieren.
+- @weaponcom: Wir müssen die Waffenlager besser vor etwaigen Übergriffen der Kommunisten schützen. 
+- @kreiskom: Es müssen Kreiskomissariate eingerichtet und ausgebaut werden um direktere Kontrolle auch außerhalb der Reichswehr zu haben 
+- @grenzschutz: Wir sollten den Grenzschutz weiter ausbauen, um unsere Grenzen vor etwaigen Übergriffen zu stärken.
+- @easy-discard: Ich habe wichtigeres zu tun
+
+@goltz
+show-if: month =< 10 and Goltz=0
+
+- @goltzidiot: Diese Offensive ist planlos und nicht gewinnbar! Wir müssen ihn denunzieren, um die Alliierten nicht zu verärgern.
+- @goltzguud: Von Goltz zeigt noch echten Patriotismus, wir müssen ihn unbedingt unterstützen!
+
+@goltzidiot
+on-arrival: Allied_relations += 2, Goltz = 1, Ludendorffist_Dissent += 2
+
+Natürlich Sir! Keine weiteren Fragen Sir!
+
+@goltzguud
+on-arrival: ludendorffist_strength += 4, ludendorffist_dissent -= 5, reformers_dissent += 4, west_relations -= 2 , soviet_relations -= 2, goltz = 1 Freikorps_militancy += 0.02, Freikorps_relations += 4
+
+Natürlich Sir! Keine weiteren Fragen Sir!
+  
+@weaponcom
+on-arrival: waffenlager = 1
+
+Natürlich Sir! Keine weiteren Fragen Sir!
+  
+@kreiskom
+on-arrival: influence += 1
+
+Natürlich Sir! Keine weiteren Fragen Sir!
+
+@grenzschutz
+on-arrival: ludendorffists_strength += 1 Freikorps_militancy += 0.05, Freikorps_relations += 4, East += 1
+
+Natürlich Sir! Keine weiteren Fragen Sir!
