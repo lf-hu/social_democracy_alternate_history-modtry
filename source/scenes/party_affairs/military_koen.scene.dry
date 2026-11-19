@@ -16,7 +16,7 @@ Wir müssen festlegen, welche militärischen Tätigkeiten diesen Monat geplant w
 - @weaponcom: Wir müssen die Waffenlager besser vor etwaigen Übergriffen der Kommunisten schützen. 
 - @kreiskom: Es müssen Kreiskomissariate eingerichtet und ausgebaut werden um direktere Kontrolle auch außerhalb der Reichswehr zu haben 
 - @grenzschutz: Wir sollten den Grenzschutz weiter ausbauen, um unsere Grenzen vor etwaigen Übergriffen zu stärken.
-- @easy-discard: Ich habe wichtigeres zu tun
+- @easy_discard: Ich habe wichtigeres zu tun
 
 @goltz
 view-if: month <= 10 and goltz = 0
