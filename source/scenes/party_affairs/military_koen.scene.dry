@@ -19,7 +19,7 @@ Wir müssen festlegen, welche militärischen Tätigkeiten diesen Monat geplant w
 - @easy-discard: Ich habe wichtigeres zu tun
 
 @goltz
-view-if: month =< 10 and goltz = 0
+view-if: month <= 10 and goltz = 0
 
 
 - @goltzidiot: Diese Offensive ist planlos und nicht gewinnbar! Wir müssen ihn denunzieren, um die Alliierten nicht zu verärgern.
