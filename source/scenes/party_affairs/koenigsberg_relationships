@@ -16,6 +16,7 @@ Seeckt ist ein viel vernetzter Mann, auch von Königsberg aus müssen Korrespond
 - @oberpraesident: Der Oberpräsident ist zwar selten einer Meinung mit mir, aber er hat eine gewisse Popularität innerhalb der DNVP.
 - @localarmy: Die lokalen Garnisonen brauchen meine Aufmerksamkeit am meisten.
 - @heimreich: Es müssen Briefe Heim ins Reich geschrieben werden, auch von hier muss ich vernetzt bleiben.
+- @easy_discard: Ich sollte mich auf Taten konzentrieren.
 
 @winnig
 on-arrival: winnig = 1; soviet_relations += 1
