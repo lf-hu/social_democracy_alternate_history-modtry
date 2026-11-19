@@ -1,0 +1,23 @@
+title: Freikorps gewinnen Einfluss
+subtitle: Die Veteranenorganisationen werden 
+view-if: year = 1919 and month = 6
+new-page: true
+max-visits: 1
+tags: event
+priority: -1
+
+Versailles wird von den Alliierten nun durchgesetzt. Bei Nichtannahme wird der Krieg wieder aufgenommen. Eine Offiziers-Konferenz, ob eine Annahme geschehen soll, wird am 19. Juni abgehalten. Zunächst geben die Offiziere Lageberichte, die Östlichen melden Kampfbereitschaft, auch in der Zivilbevölkerung. Westliche und Südliche Offiziere sind unsicher, sie vermuten das die Truppe einen erneuten Kriegsbeginn nicht mitmachen würde. Groener spricht sich offen dagegen aus, General Lüttwitz und dann auch überraschenderweise Kriegsminister Reinhardt, am entschlossensten von allen, dafür. Erneut schauen viele zu Seeckt, östliche Offiziere haben ihm soeben beteuert, im Falle einer Ablehnung hinter ihm zu stehen.
+
+- @versaillesaccept: Wir haben keine Wahl, uns bleibt nur eine Annahme…
+- @versaillesdecline: Wir haben keine Wahl, uns bleibt nur der Kampf!
+
+
+@versaillesaccept
+
+In einer Besprechung mit Ost Parlamentariern, nur wenig später wird klar: das Parlament ist noch un-enthusiastischer als die Armee und Major von Stülpnagel vermerkt am gleichen Tag: “Seeckt und ich sind anwesend und treffen uns hinterher das der beabsichtigte und von mir so stark gewollte Kampf aussichtslos ist, wenn die Vertreter der zivilen Bevölkerung ihn so schroff ablehnen.”
+
+- @
+
+@versaillesdecline
+
+go-to: end1
