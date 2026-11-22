@@ -1,0 +1,39 @@
+title: Vermittlung zwischen den Flügeln der Reichswehr:
+new-page: true
+is-card: true
+tags: party_affairs
+view-if: ideology_timer = 0
+on-arrival: month_actions += 1; old_ideology = ideology; ideology_timer = 8
+card-image: img/arbeiterbew.jpg
+max-visits: 3
+#subtitle: Setting the party's ideological direction.
+
+= Vermittlung zwischen den Flügeln der Reichswehr
+
+Wir können den Flügeln der Reichswehr Zugeständnisse machen um sie loyal zu halten.
+
+- @class_struggle: Wir sollten speziell gegen radikal-esoterische Elemente vorgehen.
+- @centrist: Wir sollten den Konservativen Eingeständnisse machen.
+- @labor: Wir müssen die Politisierung der Reichswehr stoppen.
+- @reform: Wir müssen Elemente unterstützen welche die Reichswehr reformieren wollen.
+- @easy_discard
+
+@class_struggle
+on-arrival: left_dissent += 15; center_dissent += 8; left_strength -= 6; labor_strength += 3
+
+Radikale Teile der Reichswehr sind verständlicherweise empört und so auch Teile der Konservativen die Angst haben die nächsten zu sein.
+
+@centrist
+on-arrival: centrist_dissent -= 4; centrist_strength += 5; Pragmatist_strength -= 3
+
+Die Konservativen sind beruhigt, jedoch gewinnen sie durch die Eingeständnisse auch an Einfluss, während Pragmatiker in der Reichswehr weiter politisiert werden
+
+@labor
+on-arrival: labor_dissent -= 2; labor_strength += 3; center_dissent += 3; left_dissent += 3; center_strength -= 2; reformist_strength -= 1
+
+Die politischen Flügel, abgesehen von den Reformern, sind verständlicherweise nicht erfreut über diese Initiative ihre Macht zu brechen
+
+@reform
+on-arrival: reformist_strength += 3; labor_strength -= 1; center_dissent += 6; left_dissent += 5; center_strength -= 1; labor_dissent += 4] 
+
+Eine Stärkung des eigenen Flügels erscheint selbst Pragmatikern scheinheilig, wodurch die Armee-Führung unter Druck gerät.
