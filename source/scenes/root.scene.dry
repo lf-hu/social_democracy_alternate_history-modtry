@@ -101,6 +101,8 @@ Q.moderate_plan_adopted = 0;
 Q.reformers_resigned = 0;
 Q.seeckt_left = 0;
 Q.seeckt_right = 3;
+Q.nightwitches = 0;
+Q.reform = 0;
 
 // organizations
 
