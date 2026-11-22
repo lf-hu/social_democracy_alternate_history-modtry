@@ -13,7 +13,6 @@ max-visits: 4
 Wir müssen festlegen wie wir mit Veteranen des Großen Krieges und der noch kommenden Demobilisierung umgehen sollen
 
 - @nightwitches: Die Fliegerstaffel und ihre Piloten
-- @freikorpfrug: Die Frage der Freikorps.
 
 @nightwitches
 view-if: nightwitches <= 0
