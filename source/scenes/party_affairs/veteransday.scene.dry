@@ -14,3 +14,22 @@ Wir müssen festlegen wie wir mit Veteranen des Großen Krieges und der noch kom
 
 - @nightwitches: Die Fliegerstaffel und ihre Piloten
 - @freikorpfrug: Die Frage der Freikorps.
+
+@nightwitches
+view-if: nightwitches <= 0
+on-arrival: nigtwitches = 1
+
+Versailles besagt das das Deutsche Reich keine Luftwaffe mehr besitzen darf, was ist nun zu tun Sir?
+
+- @nonightwitches: Wir haben keine andere Wahl als den Bestimmungen der Alliierten zu folgen und die Fliegerstaffel aufzulösen
+- @yesnightwitches: Wir könnten unter Umständen die Fliegerstaffel zwar auflösen, den eigentlichen Körper an Piloten jedoch weiter, nun ohne Flieger trainieren. So sind wir immer für spätere Operationen vorbereitet 
+
+@nonightwitches
+on-arrival: labor_strength += 1
+
+Natürlich Sir. Wie Sie meinen Sir!
+
+@yesnightwitches
+on-arrival: reformist_strength += 2; reform += 1
+
+Natürlich Sir. Wie Sie meinen Sir!
