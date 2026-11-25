@@ -578,6 +578,7 @@ Q.influence = 0;
 Q.fk_relations = 0;
 Q.goltz = 0;
 Q.veteran_timer = 0;
+Q.freikorpencour_seen = 0;
 
 
 // all the initial advisors are conservatives.
