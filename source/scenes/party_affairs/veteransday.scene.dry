@@ -13,6 +13,7 @@ max-visits: 4
 Wir müssen festlegen wie wir mit Veteranen des Großen Krieges und der noch kommenden Demobilisierung umgehen sollen
 
 - @nightwitches: Die Fliegerstaffel und ihre Piloten
+- @freikorpencour: Es ist zeit unsere Opposition gegenüber den Freikorps aufzugeben und sie zu unterstützen.
 
 @nightwitches
 view-if: nightwitches <= 0
@@ -32,3 +33,9 @@ Natürlich Sir. Wie Sie meinen Sir!
 on-arrival: reformist_strength += 2; reform += 1
 
 Natürlich Sir. Wie Sie meinen Sir!
+
+@freikorpencour
+view-if: freikorpencour_seen = 0
+on-arrival: fk_strength += 50; freikorpencour_seen = 1
+
+Ob aus Gründen der nationalen Sicherheit oder aufgrund persönlicher Verbindungen, Seeckt hat sich entschieden ein Memorandum an die Offiziere ausgehen zu lassen in welchem er davon spricht das für ausgehende Soldaten Freikorps als Reintegration in die Gesellschaft empfohlen werden sollen. Dies geht natürlich auch schnell über die Armee hinaus und treibt weitere Mitglieder zu den Freikorps.
