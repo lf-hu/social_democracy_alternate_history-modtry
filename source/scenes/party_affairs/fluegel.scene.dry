@@ -34,6 +34,6 @@ on-arrival: labor_dissent -= 2; labor_strength += 3; center_dissent += 3; left_d
 Die politischen Flügel, abgesehen von den Reformern, sind verständlicherweise nicht erfreut über diese Initiative ihre Macht zu brechen
 
 @reform
-on-arrival: reformist_strength += 3; labor_strength -= 1; center_dissent += 6; left_dissent += 5; center_strength -= 1; labor_dissent += 4] 
+on-arrival: reformist_strength += 3; labor_strength -= 1; center_dissent += 6; left_dissent += 5; center_strength -= 1; labor_dissent += 4
 
 Eine Stärkung des eigenen Flügels erscheint selbst Pragmatikern scheinheilig, wodurch die Armee-Führung unter Druck gerät.
