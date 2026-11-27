@@ -477,6 +477,9 @@ Q.eu_progress = 0;
 // science/education
 Q.science = 0;
 Q.education_science = 0;
+Q.focus_1 = fuck around and find out; 
+Q.focus_2 = wow; 
+Q.focus_3 = wow; 
 
 // Tax rates relative to 1928 baseline
 Q.lower_tax_rates = 0;
