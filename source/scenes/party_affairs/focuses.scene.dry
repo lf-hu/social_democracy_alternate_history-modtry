@@ -1,0 +1,231 @@
+title: Trainingsfokus
+new-page: true
+on-arrival: month_actions += 1
+max-visits: 5
+is-card: true
+card-image: img/flags.jpg
+frequency: 80
+tags: party_affairs
+
+@focus1
+  
+= Fokus des Truppenamtes
+
+Die Frage worauf sich das Training des Truppenamt fokussieren soll ist eine der wichtigsten welche sich der Chef des Truppenamtes stellen muss. Seeckt muss sich für 3 Hauptfokuse entscheiden.
+
+- @disciplin: Die Disziplin der Truppe ist am wichtigsten.
+- @creativity: Die Kreativität der Truppe muss vor allem gefördert werden.
+- @physical: Jeder einzelne muss körperlich fit sein.
+- @efficiency: Wir müssen in Operationen effizienter werden.
+- @largefight: Wir werden alte Strategien neu aufgreifen und große Formationsangriffe trainieren
+- @smallfight: Es ist Zeit unsere Armee an neue Bedingungen anzupassen, sie sollte in kleineren Gruppen trainieren.
+- @loyality: Die Truppe muss einhundert Prozent loyal sein und ihren Offizieren fragenlos gehorchen.
+- @strategy: Strategie muss auch an niedrigere Positionen vermittelt werden.
+- @instict: Der Führungsinstinkt von unseren Männern sollte gefördert werden.
+- @trenchcombat: Die Gräbenschlachten des Weltkrieges sollten nicht vergessen werden. 
+
+@disciplin
+on-arrival: reichswehr_loyalty += 0.03; center_dissent -= 2; focus_1 = "disciplin"
+
+Die Konservativen schätzen die wiedereinkerende, rigide Disziplin und Loyalität zur militärischen Führung wird gefördert
+  
+@creativity
+on-arrival: reform += 0.5; center_dissent += 1; focus_1 = "creativity"
+
+Die Reichswehr fördert kreative Problemlösung, welche in der langen Sicht fähigere Offiziere hervorbringen soll[? if focus_1 != "disciplin" or focus_2 != "disciplin" or focus_3 != "disciplin", nur einige wenige Konservative sind der meinung 
+
+@physical
+on-arrival: focus_1 = "physical"                                                                                                              
+Auch wenn der Fokus                                                                                                             
+
+@efficiency
+on-arrival: focus_1 = "physical" 
+
+@largefight
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@smallfight
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@loyality 
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@strategy
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@instict
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@trenchcombat
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+
+
+
+@focus2
+
+Was sollte unsere 2. Priorität sein Sir?
+
+- @disciplin: Die Disziplin der Truppe ist am wichtigsten.
+- @creativity: Die Kreativität der Truppe muss vor allem gefördert werden.
+- @physical: Jeder einzelne muss körperlich fit sein.
+- @efficiency: Wir müssen in Operationen effizienter werden.
+- @largefight: Wir werden alte Strategien neu aufgreifen und große Formationsangriffe trainieren
+- @smallfight: Es ist Zeit unsere Armee an neue Bedingungen anzupassen, sie sollte in kleineren Gruppen trainieren.
+- @loyality: Die Truppe muss einhundert Prozent loyal sein und ihren Offizieren fragenlos gehorchen.
+- @strategy: Strategie muss auch an niedrigere Positionen vermittelt werden.
+- @instict: Der Führungsinstinkt von unseren Männern sollte gefördert werden.
+- @trenchcombat: Die Gräbenschlachten des Weltkrieges sollten nicht vergessen werden. 
+
+@disciplin
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@creativity
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@physical
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@efficiency
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@largefight
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@smallfight
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@loyality 
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@strategy
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@instict
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@trenchcombat
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@focus3
+
+Und unser 3. Fokus?
+
+- @disciplin: Die Disziplin der Truppe ist am wichtigsten.
+- @creativity: Die Kreativität der Truppe muss vor allem gefördert werden.
+- @physical: Jeder einzelne muss körperlich fit sein.
+- @efficiency: Wir müssen in Operationen effizienter werden.
+- @largefight: Wir werden alte Strategien neu aufgreifen und große Formationsangriffe trainieren
+- @smallfight: Es ist Zeit unsere Armee an neue Bedingungen anzupassen, sie sollte in kleineren Gruppen trainieren.
+- @loyality: Die Truppe muss einhundert Prozent loyal sein und ihren Offizieren fragenlos gehorchen.
+- @strategy: Strategie muss auch an niedrigere Positionen vermittelt werden.
+- @instict: Der Führungsinstinkt von unseren Männern sollte gefördert werden.
+- @trenchcombat: Die Gräbenschlachten des Weltkrieges sollten nicht vergessen werden. 
+
+  @disciplin
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@creativity
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@physical
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@efficiency
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@largefight
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@smallfight
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@loyality 
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@strategy
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@instict
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
+
+@trenchcombat
+title: Democratic curriculum
+subtitle: Critical thinking, democratic citizenship, and collaboration
+view-if: focus_1 != "democratic"
+on-arrival: 
