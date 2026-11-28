@@ -35,48 +35,32 @@ on-arrival: reform += 0.5; center_dissent += 1; focus_1 = "creativity"
 Die Reichswehr fördert kreative Problemlösung, welche in der langen Sicht fähigere Offiziere hervorbringen soll[? if focus_1 != "disciplin" or focus_2 != "disciplin" or focus_3 != "disciplin", nur einige wenige Konservative sind der meinung 
 
 @physical
-on-arrival: focus_1 = "physical"                                                                                                              
-Auch wenn der Fokus                                                                                                             
+on-arrival: focus_1 = "physical"     
+
+Auch wenn der offizielle Fokus nun stärker auf physischer Fitness liegt, sind Änderungen nur schwach spürbar, denn schliesslich setzen die Ausbilder schon von alleine einen starken Fokus auf eben jene Fitness.                                                                                                      
 
 @efficiency
 on-arrival: focus_1 = "physical" 
 
+
+
 @largefight
-title: Democratic curriculum
-subtitle: Critical thinking, democratic citizenship, and collaboration
-view-if: focus_1 != "democratic"
 on-arrival: 
 
 @smallfight
-title: Democratic curriculum
-subtitle: Critical thinking, democratic citizenship, and collaboration
-view-if: focus_1 != "democratic"
 on-arrival: 
 
 @loyality 
-title: Democratic curriculum
-subtitle: Critical thinking, democratic citizenship, and collaboration
-view-if: focus_1 != "democratic"
 on-arrival: 
 
 @strategy
-title: Democratic curriculum
-subtitle: Critical thinking, democratic citizenship, and collaboration
-view-if: focus_1 != "democratic"
 on-arrival: 
 
 @instict
-title: Democratic curriculum
-subtitle: Critical thinking, democratic citizenship, and collaboration
-view-if: focus_1 != "democratic"
 on-arrival: 
 
 @trenchcombat
-title: Democratic curriculum
-subtitle: Critical thinking, democratic citizenship, and collaboration
-view-if: focus_1 != "democratic"
 on-arrival: 
-
 
 
 
